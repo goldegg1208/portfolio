@@ -46,6 +46,10 @@ div {
     color:#ffffff;
 }
 
+.main_title h1 {
+    -webkit-text-stroke: 2px #fff;
+}
+
 .main_video {
     position:fixed;
     z-index:-1;
