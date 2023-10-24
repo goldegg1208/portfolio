@@ -40,7 +40,7 @@ div {
 
 .main_title {
     font-family: 'GmarketSansBold';
-    font-size:80px;
+    font-size:70px;
     text-align:center;
     padding-top:100px;
     color:#ffffff;
@@ -48,7 +48,8 @@ div {
 
 .main_title h1 {
     -webkit-text-stroke: 2px #fff;
-    line-height:100%;
+    color: transparent;
+    line-height:72px;
 }
 
 .main_video {
