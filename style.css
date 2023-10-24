@@ -56,6 +56,14 @@ div {
     display:block;
 }
 
+.main_title h2 {
+    color:#fff;
+    font-size:20px;
+    letter-spacing:20px;
+    margin-left:-20px;
+    padding-top:30px;
+}
+
 .main_video {
     position:fixed;
     z-index:-1;
