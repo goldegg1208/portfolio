@@ -39,9 +39,8 @@ div {
 }
 
 .main_title {
-    font-family: 'GmarketSansMedium';
+    font-family: 'GmarketSansBold';
     font-size:80px;
-    font-weight:700;
     text-align:center;
     padding-top:100px;
     color:#ffffff;
