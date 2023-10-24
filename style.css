@@ -1,3 +1,11 @@
+<!--폰트-->
+@font-face {
+    font-family: 'KIMM_Bold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2212@1.0/KIMM_Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
 body {
   width:100%;
   margin:0;
@@ -15,3 +23,13 @@ div {
 
   background-color:#000000;
 }
+
+.main_title {
+  font-family: 'KIMM_Bold';
+  color:#fff;
+  font-size:80px;
+  font-weight:700;
+}
+
+
+
