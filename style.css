@@ -41,6 +41,7 @@ div {
 .main_title {
     font-family: 'GmarketSansBold';
     font-size:80px;
+    line-height:100%;
     text-align:center;
     padding-top:100px;
     color:#ffffff;
