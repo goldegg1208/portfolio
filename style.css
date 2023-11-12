@@ -219,13 +219,13 @@ div, p {
 
 #profile .text h3 p {
 	float:left; 
-	width:100px;
+	width:70px;
 	font-weight:500;
 }
 
 #profile .text h3 ul {
 	float:left;
-	width: calc( 100% - 100px ); 
+	width: calc( 100% - 70px ); 
 	list-style:none;
 	padding:0;
 	margin:0;
