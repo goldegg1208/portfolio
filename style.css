@@ -1,6 +1,8 @@
 <!--폰트-->
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://webfontworld.github.io/gmarket/GmarketSans.css');
 
+<!--
 @font-face {
     font-family: 'GmarketSans';
     font-weight: 300;
@@ -34,6 +36,7 @@
          url('https://cdn.jsdelivr.net/gh/webfontworld/gmarket/GmarketSansBold.ttf') format("truetype");
     font-display: swap;
 } 
+-->
 
 html {
 	height:100%;
