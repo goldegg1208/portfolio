@@ -81,7 +81,8 @@ div, p {
 }
 
 #main .c_area {
-    height:800px;
+	height:800px;
+	border:1px solid #000;
 }
 
 #main .img {
