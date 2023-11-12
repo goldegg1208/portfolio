@@ -301,9 +301,11 @@ div, p {
 
 #skill .title {
 	width:100%;
+	overflow:hidden;
 }
 
 #skill .title h2{
+	float:left;
 	color:#e38d4e;
 	font-size:80px;
 	line-height:90px;
@@ -314,4 +316,9 @@ div, p {
 #skill .title h2 b {
 	font-weight:700;
 	display:block;
+}
+
+#skill .title ul{
+	list-style:none;
+	float:right;
 }
