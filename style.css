@@ -354,6 +354,8 @@ div, p {
 	left:50%;
 	top:50%;
 	tranform:translate(-50%,-50%);
+	padding:0;
+	margin:0;
 }
 
 .charts .chart svg{
