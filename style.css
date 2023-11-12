@@ -139,6 +139,17 @@ div, p {
 }
 
 #story .text {width:950px; margin:0 auto;}
+#story .text h2 {
+	font-family: 'GmarketSans';
+	font-weight:300;
+	color:#46443f;
+	font-size:80px;
+	line-height:90px;
+}
+#story .text h2 b {
+	color:#ffb400;
+	font-weight:700;
+}
 #story .text p {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size:15px;
