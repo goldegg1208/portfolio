@@ -352,7 +352,7 @@ div, p {
 }
 .charts .chart h2{
 	position:absolute;
-	left:50%;
+	left:40%;
 	top:-25px;
 	tranform:translate(-50%,-50%);
 	padding:0;
@@ -365,7 +365,6 @@ div, p {
 .charts .chart h1{
 	position:absolute;
 	left:50%;
-	margin-left:-80px;
 	top:50px;
 	tranform:translate(-50%,-50%);
 	padding:0 !important;
