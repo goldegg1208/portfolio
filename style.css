@@ -305,6 +305,7 @@ div, p {
 #skill .title {
 	width:100%;
 	overflow:hidden;
+	font-family: 'GmarketSans';
 }
 
 #skill .title h2{
@@ -312,7 +313,6 @@ div, p {
 	color:#e38d4e;
 	font-size:80px;
 	line-height:90px;
-	font-family: 'GmarketSans';
 	font-weight:300;
 }
 
@@ -324,4 +324,14 @@ div, p {
 #skill .title ul{
 	list-style:none;
 	float:right;
+}
+#skill .title li {
+	font-size:15px;
+	line-height:27px;
+	color:#58412b;
+	font-weight:300;
+}
+
+#skill .title li b {
+	font-weight:700;
 }
