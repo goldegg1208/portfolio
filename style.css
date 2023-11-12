@@ -72,7 +72,7 @@ div, p {
 }
 
 #main .text h1 p {
-    font-weight:500 !important;
+    font-weight:300 !important;
 }
 
 #main .text h1 b {
@@ -83,11 +83,11 @@ div, p {
 #main .text h2 {
     font-size:17px;
     line-height:25px;
+    letter-spacing:5px;
 }
 
 #main .text h2 p {
     font-weight:300 !important;
-    letter-spacing:20px;
 }
 
 #main .text h2 b {
