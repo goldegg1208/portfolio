@@ -181,52 +181,5 @@
 		</div>
 	  </div>
   </div>
-<script>
-	
-	$(document).ready(function(){
-		
-       var swiper = new Swiper('.swiper01', {
-           loop:true,
-		   speed:5000,
-		   effect : 'fade',
-		   autoplay:{delay:5000},
-			pagination: {
-			  el: ".main-page",
-			  clickable: true,
-			},
-        });
-
-		var yearSwiper = new Swiper('.year-swiper', {
-		    slidesPerView : 'auto',
-		    //loop:true,
-			spaceBetween : 70,
-			centeredSlides: true,
-			 //autoplay:{delay:3000},
-			
-			
-		});
-
-		var yearImgSwiper = new Swiper('.year-img-swiper', {
-            slidesPerView : 'auto',
-		    //loop:true,
-			centeredSlides: true,
-			scrollbar: {
-			  el: ".year-page-bar",
-			  hide: false,
-			  dragSize: 150,
-			},
-			navigation: {
-                nextEl: '.year-next',
-                prevEl: '.year-prev',
-            },
-			
-        });
-
-       yearSwiper.controller.control = yearImgSwiper;
-	   yearImgSwiper.controller.control = yearSwiper;
-    });
-
-	
-</script>
  </body>
 </html>
