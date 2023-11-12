@@ -145,6 +145,8 @@ div, p {
 	color:#46443f;
 	font-size:80px;
 	line-height:90px;
+	padding:0;
+	margin:0;
 }
 #story .text h4 b {
 	color:#ffb400;
