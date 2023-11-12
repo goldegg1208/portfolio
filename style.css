@@ -155,4 +155,5 @@ div, p {
 	font-size:15px;
 	color:rgba(0,0,0,.5);
 	line-height:27px;
+	word-wrap: break-word;
 }
