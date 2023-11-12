@@ -184,6 +184,11 @@ div, p {
         justify-content: center;
 }
 
+#profile .text{
+	width:100%;
+	margin:0 auto;
+}
+
 #profile .text h4 {
 	font-family: 'GmarketSans', 'Noto Sans KR', sans-serif;
 	font-weight:300;
