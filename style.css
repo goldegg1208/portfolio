@@ -108,12 +108,12 @@ div, p {
 	height:590px;
 	margin: 2% auto;
 	background:url('https://user-images.githubusercontent.com/79674569/282300394-b798b74e-d4b7-41e0-897c-c7dfe40d7396.png')left bottom no-repeat;
-	background-size:3000px 590px;
-	animation: play2 .9s steps(5) infinite;
+	background-size:6002px 590px;
+	animation: play2 .9s steps(10) infinite;
 }
 
 @keyframes play2 {
-  100% { background-position: -3000px; }
+  100% { background-position: -6002px; }
 }
 
 #main .img img {
