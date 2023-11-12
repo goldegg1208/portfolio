@@ -354,7 +354,7 @@ div, p {
 .charts .chart h2{
 	position:absolute;
 	left:45%;
-	top:-25px;
+	top:-28px;
 	tranform:translate(-50%,-50%);
 	padding:0;
 	margin:0 0 0 -10px;
@@ -365,8 +365,8 @@ div, p {
 
 .charts .chart h1{
 	position:absolute;
-	left:30%;
-	top:55px;
+	left:25%;
+	top:60px;
 	tranform:translate(-50%,-50%);
 	padding:0 !important;
 	margin:0 !important;
@@ -434,7 +434,7 @@ circle {
 .charts .chart h3{
 	position:absolute;
 	left:45%;
-	top:150px;
+	top:180px;
 	tranform:translate(-50%,-50%);
 	padding:0 !important;
 	margin:0 !important;
@@ -444,6 +444,7 @@ circle {
 	color:#58412b;
 	font-weight:300;
 	text-align:center;
+	width:220px;
 }
 .charts .chart h3 b{
 	font-weight:700;
