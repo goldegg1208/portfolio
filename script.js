@@ -108,7 +108,7 @@ $(function(){
 							progress:function(){
 								var now = this.rate;
 								var amount = 630 - (630*now/100);
-								title.text(Math.floor(now)+'<span>%</span>');
+								title.text(Math.floor(now)+"%");
 								circle.css({strokeDashoffset:amount});
 							}
 					});
