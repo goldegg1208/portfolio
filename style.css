@@ -138,10 +138,10 @@ div, p {
 	background-color:#f5f2e9;
 }
 
-#story .text {width:950px; margin:0 auto;}
+#story .text {width:950px; margin:0 auto; padding-top:20%;}
 #story .text h4 {
 	font-family: 'GmarketSans';
-	font-weight:300;
+	font-weight:500;
 	color:#46443f;
 	font-size:80px;
 	line-height:90px;
