@@ -60,10 +60,9 @@ div, p {
     z-index:1000000;
     position:absolute;
     width:1000px;
-    height:900px;
+    height:800px;
     top:0px;
     text-align:right;
-    background-color:#000;
 }
 
 #main .img img {
