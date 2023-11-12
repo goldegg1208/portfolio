@@ -369,6 +369,7 @@ circle {
 	stroke-dasharray:628;
 	stroke-dashoffset:628;
 	animation:line 2s forwards;
+	transform:rotate(-45deg);
 }
 
 @keyframes line{
