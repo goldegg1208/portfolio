@@ -69,11 +69,9 @@ div, p {
 }
 
 #main .text {
-    z-index:1;
-    position:absolute;
     width:1000px;
     color:#fff;
-    top:100px;
+    padding-top:100px;
     font-family: 'GmarketSans';
 }
 
