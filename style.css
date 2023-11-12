@@ -52,10 +52,10 @@ div, p {
 #main .text h1 {
     font-size:53px;
     line-height:56px;
+    font-family: 'GmarketSansLight';
 }
 
 #main .text h1 p {
-    font-family: 'GmarketSansLight';
 }
 
 #main .text h1 b {
@@ -66,10 +66,10 @@ div, p {
 #main .text h2 {
     font-size:12px;
     line-height:18px;
+    font-family: 'GmarketSansLight';
 }
 
 #main .text h2 p {
-    font-family: 'GmarketSansLight';
 }
 
 #main .text h2 b {
