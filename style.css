@@ -50,15 +50,17 @@ div, p {
 }
 
 @keyframes fadeIn{
-		from{
-			opacity:0;
-			transform:translateY(20px);
-		}
-		to {
-			opacity:1;
-			transform:none;
-		}
+	from{
+		opacity:0;
+		transform:translateY(20px);
 	}
+	to {
+		opacity:1;
+		transform:none;
+	}
+}
+
+.op_0 {opacity:0.0;}
 
 #main {
     width:100%;
@@ -121,5 +123,3 @@ div, p {
     font-weight:700;
     display:block;
 }
-
-#main .b_text1 {opacity:0.0;}
