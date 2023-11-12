@@ -132,6 +132,24 @@
 		</div>
 	</div>
   </div>
+<script type="text/javascript">
+$(function(){
+	ver chart=$(this);
+	ver title=item.find('h2');
+	var targetNum = title.attr('data-num');
+
+	$({rate:0}).animate({rate:targetNum},
+		{
+			duration:1500,
+			progress:function(){
+				var now = this.rate;
+				console.log(now);
+				title.text(Math.floor(now));
+			}
+		}
+	})
+});
+</script>
 
    <script type="text/javascript">
    $(function(){
