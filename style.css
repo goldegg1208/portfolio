@@ -61,7 +61,7 @@ div, p {
     position:absolute;
     width:1000px;
     color:#fff;
-    padding-top:80px;
+    top:300px;
     font-family: 'GmarketSans';
 }
 
