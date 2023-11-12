@@ -135,7 +135,7 @@
 <script type="text/javascript">
 $(function(){
 	var chart = $('.chart');
-	var chartOST = chart.offset().top - 300;
+	var chartOST = chart.offset().top - 500;
 
 	chart.each(function(){
 		var item = $(this);
@@ -158,7 +158,7 @@ $(function(){
 	});
 
 	$(window).scroll(function(){
-		var currentSTC = $(this).scrolltop();
+		var currentSTC = $(this).scrollTop();
 		if(currentSTC >= chartOST){
 			chart.each(function(){
 				var item = $(this);
