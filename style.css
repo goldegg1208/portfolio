@@ -185,8 +185,8 @@ div, p {
 }
 
 #profile .text{
-	width:100%;
-	margin:0 auto;
+	float:left;
+	overflow:hidden;
 }
 
 #profile .text h4 {
@@ -218,13 +218,13 @@ div, p {
 
 #profile .text h3 p {
 	float:left; 
-	width:150px;
+	width:100px;
 	font-weight:500;
 }
 
 #profile .text h3 ul {
 	float:left;
-	width: calc( 100% - 150px ); 
+	width: calc( 100% - 100px ); 
 	list-style:none;
 	padding:0;
 	margin:0;
@@ -238,8 +238,8 @@ div, p {
 }
 
 #profile .ani {
-	position:absolute;
-	z-index:111111;
+	float:right;
+	overflow:hidden;
 	
 	width:400px;
 	height:594px;
