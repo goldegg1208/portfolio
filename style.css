@@ -143,6 +143,7 @@ div, p {
 #story .c_area {
 	background:url('https://user-images.githubusercontent.com/79674569/282286353-293d8452-b893-466f-bdd4-f928f4af3800.jpg')right top no-repeat;
 	background-size:450px 426px;
+	background-attachment: fixed;
 }
 
 #story .text {width:950px; margin:0 auto; padding-top:13%;}
