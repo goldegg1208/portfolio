@@ -134,6 +134,7 @@
   </div>
 <script type="text/javascript">
 $(function(){
+	var charts = $('.chart');
 	var chart = $('.chart');
 	var chartOST = chart.offset().top - 700;
 	var excuted = false;
@@ -141,7 +142,7 @@ $(function(){
 	$(window).scroll(function(){
 		var currentSTC = $(this).scrollTop();
 		if(currentSTC >= chartOST){
-			if(excuted == false){
+			if(!charts.hasClass('active')){
 				chart.each(function(){
 					var item = $(this);
 					var title = item.find('h2');
@@ -161,7 +162,7 @@ $(function(){
 					});
 					
 				});
-				excuted = true;
+				charts.addClass('active');
 			}
 		}
 	)};
