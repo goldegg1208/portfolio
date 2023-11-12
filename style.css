@@ -50,7 +50,7 @@ div, p {
 }
 
 .c_area {
-    width:1000px; 
+    width:900px; 
     margin:0 auto;
 }
 
@@ -77,7 +77,7 @@ div, p {
 #main .img {
     z-index:1000000;
     position:absolute;
-    width:1000px;
+    width:900px;
     top:15%;
     text-align:right;
 }
@@ -89,7 +89,7 @@ div, p {
 #main .text {
     z-index:1;
     position:absolute;
-    width:1000px;
+    width:900px;
     top:18%;
     color:#fff;
     font-family: 'GmarketSans';
