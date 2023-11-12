@@ -1,4 +1,3 @@
-<script type="text/javascript">
 $(function(){
 	$(window).scroll(function(){
 		$('.up0').each(function(){
@@ -62,4 +61,4 @@ $(function(){
 		});
 	});		
 });
-</script>
+
