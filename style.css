@@ -139,14 +139,14 @@ div, p {
 }
 
 #story .text {width:950px; margin:0 auto;}
-#story .text h2 {
+#story .text h4 {
 	font-family: 'GmarketSans';
 	font-weight:300;
 	color:#46443f;
 	font-size:80px;
 	line-height:90px;
 }
-#story .text h2 b {
+#story .text h4 b {
 	color:#ffb400;
 	font-weight:700;
 }
