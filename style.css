@@ -360,3 +360,8 @@ div, p {
 	width:220px;
 	height:220px;
 }
+
+circle {
+	fill:rgba(0,0,0,.2);
+	stroke-width:10px;
+}
