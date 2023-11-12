@@ -198,6 +198,7 @@ div, p {
 	padding:0 0 50px 0;
 	margin:0;
 }
+
 #profile .text h4 b{
 	font-weight:500;
 	font-size:60px;
@@ -205,6 +206,7 @@ div, p {
 	line-height:70px;
 	padding-bottom:10px;
 }
+
 #profile .text h3 {
 	width:100%;
 	display:block;
@@ -213,22 +215,31 @@ div, p {
 	line-height:27px;
 	font-family: 'Noto Sans KR', sans-serif;
 }
+
 #profile .text h3 p {
 	float:left; 
 	width:150px;
 	font-weight:500;
 }
+
 #profile .text h3 ul {
 	float:left;
 	width: calc( 100% - 150px ); 
 	list-style:none;
+	padding:0;
+	margin:0;
 }
+
 #profile .text h3 ul li{
 	list-style:none;
 	font-weight:300;
+	padding:0;
+	margin:0;
 }
 
 #profile .ani {
+	position:absolute;
+	bottom:0;
 	width:400px;
 	height:594px;
 	margin: 2% auto;
