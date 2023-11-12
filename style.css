@@ -347,4 +347,11 @@ div, p {
 
 .charts .chart{
 	margin:0 20px;
+	position:relative;
+}
+.charts .chart h2{
+	position:absolute;
+	left:50%;
+	top:50%;
+	tranform:translate(-50%,-50%);
 }
