@@ -333,6 +333,8 @@ div, p {
 	font-weight:300;
 	height:30px;
 	display:block;
+	background:url('https://user-images.githubusercontent.com/79674569/282318210-c4c4bee5-06b8-488a-93da-6b240c314266.png')left center no-repeat;
+	background-size:27px 3px;
 }
 
 #skill .title li b {
