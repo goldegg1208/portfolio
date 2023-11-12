@@ -371,6 +371,7 @@ circle {
 	animation:line 2s forwards;
 	transform:rotate(-90deg);
 	transform-origin:50% 50%;
+	stroke-linecap:round;
 }
 
 @keyframes line{
