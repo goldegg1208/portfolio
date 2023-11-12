@@ -366,6 +366,7 @@ div, p {
 circle {
 	fill:rgba(0,0,0,.2);
 	stroke-width:10;
+	stroke-dasharray:628px;
 }
 
 .charts .chart:nth-child(1) circle{
