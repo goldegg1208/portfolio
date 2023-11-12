@@ -239,11 +239,10 @@ div, p {
 }
 
 #profile .ani {
-	position:fixed;
+	position:absolute;
 	overflow:hidden;
-	bottom:0;
 	left:50%;
-	margin-left:100px;
+	margin-left:-500px;
 	width:500px;
 	height:743px;
 	margin: 2% auto;
