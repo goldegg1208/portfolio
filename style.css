@@ -364,10 +364,11 @@ div, p {
 }
 
 circle {
-	fill:rgba(0,0,0,.2);
+	fill:#fff;
 	stroke-width:10;
 	stroke-dasharray:628;
 	stroke-dashoffset:628;
+	animation:line
 }
 
 .charts .chart:nth-child(1) circle{
