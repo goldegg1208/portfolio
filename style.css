@@ -97,9 +97,11 @@ div, p {
 }
 
 #main .text h3 {
-    font-size:80px;
-    line-height:90px;
-    font-weight:normal;
+	font-size:80px;
+	line-height:90px;
+	font-weight:normal;
+	padding:0;
+	margin:0;
 }
 
 #main .text h3 p {
@@ -115,6 +117,8 @@ div, p {
     font-size:15px;
     line-height:25px;
     letter-spacing:5px;
+     padding:60px 0 0 0;
+	margin:0;
 }
 
 #main .text h2 p {
