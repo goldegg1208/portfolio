@@ -176,7 +176,7 @@ div, p {
 	height:1486px;
 	margin: 2% auto;
 	background:url('https://user-images.githubusercontent.com/79674569/282288602-5039bab0-5996-4534-8005-ae893cbcde0a.png')left center no-repeat;
-	animation: play .8s steps(10) infinite;
+	animation: play .9s steps(6) infinite;
 }
 
 @keyframes play {
