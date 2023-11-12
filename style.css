@@ -239,7 +239,8 @@ div, p {
 
 #profile .ani {
 	position:absolute;
-	bottom:0;
+	z-index:111111;
+	
 	width:400px;
 	height:594px;
 	margin: 2% auto;
