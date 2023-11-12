@@ -353,7 +353,7 @@ div, p {
 .charts .chart h2{
 	position:absolute;
 	left:50%;
-	top:-30px;
+	top:-25px;
 	tranform:translate(-50%,-50%);
 	padding:0;
 	margin:0 0 0 -10px;
@@ -375,6 +375,21 @@ div, p {
 
 .charts .chart:nth-child(1) h1{
 	background:url('https://user-images.githubusercontent.com/79674569/282316251-8b31d7b0-7f2d-4d9e-b764-f47da23e1585.png')center no-repeat;
+	background-size:65px 65px;
+}
+
+.charts .chart:nth-child(2) h1{
+	background:url('https://user-images.githubusercontent.com/79674569/282316252-78f27736-7836-4627-89bb-2040d98702cf.png')center no-repeat;
+	background-size:65px 65px;
+}
+
+.charts .chart:nth-child(3) h1{
+	background:url('https://user-images.githubusercontent.com/79674569/282316253-0fe87e26-d94a-4bd1-9817-a2e82dd14c79.png')center no-repeat;
+	background-size:65px 65px;
+}
+
+.charts .chart:nth-child(4) h1{
+	background:url('https://user-images.githubusercontent.com/79674569/282316254-1fffb7dd-31a0-4a4a-a0c4-f81327598d20.png')center no-repeat;
 	background-size:65px 65px;
 }
 
