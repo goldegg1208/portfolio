@@ -184,6 +184,37 @@ div, p {
         justify-content: center;
 }
 
+#profile .text h4 {
+	font-family: 'GmarketSans', 'Noto Sans KR', sans-serif;
+	font-weight:300;
+	color:#46443f;
+	font-size:30px;
+	line-height:40px;
+	padding:0 0 50px 0;
+	margin:0;
+}
+#profile .text h4 b{
+	font-weight:500;
+	font-size:60px;
+	display:block;
+}
+#profile .text h3 {
+	width:100%;
+	display:block;
+	padding-bottom:30px;
+	font-size:15px;
+	line-height:27px;
+	font-family: 'Noto Sans KR', sans-serif;
+}
+#profile .text h3 p {
+	float:left; 
+	width:100px;
+}
+#profile .text h3 ul {
+	float:left;
+	width: calc( 100% - 100px ); 
+}
+
 #profile .ani {
 	width:400px;
 	height:594px;
