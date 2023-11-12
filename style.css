@@ -52,7 +52,7 @@ div, p {
 }
 
 .c_area {
-    width:980px; 
+    width:950px; 
     margin:0 auto;
 }
 
@@ -79,7 +79,7 @@ div, p {
 #main .img {
     z-index:1000000;
     position:absolute;
-    width:980px;
+    width:950px;
     top:15%;
     text-align:right;
 }
@@ -91,7 +91,7 @@ div, p {
 #main .text {
     z-index:1;
     position:absolute;
-    width:980px;
+    width:950px;
     top:18%;
     color:#fff;
     font-family: 'GmarketSans';
@@ -138,7 +138,7 @@ div, p {
 	background-color:#f5f2e9;
 }
 
-#story .text {width:980px; margin:0 auto;}
+#story .text {width:950px; margin:0 auto;}
 #story .text p {
 	font-family: 'Noto Sans KR', sans-serif;
 	font-size:15px;
