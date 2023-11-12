@@ -375,7 +375,7 @@ circle {
 
 @keyframes line{
 	from{stroke-dashoffset:628;}
-	to{stroke-dashoffset:0;}
+	to{stroke-dashoffset:100;}
 }
 
 .charts .chart:nth-child(1) circle{
