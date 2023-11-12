@@ -113,20 +113,24 @@
 			</ul>
 		</div>
 	</div>
-	  <div class="a1 active-on-visible" data-active-on-visible-callback-func-name="Circle__run">
-    <div class="second circle" circleProgress='60'>
-        <strong class="circle-percent"></strong>
-    </div>
-    <div class="second circle" circleProgress='20'>
-        <strong class="circle-percent"></strong>
-    </div>
-    <div class="second circle" circleProgress='30'>
-        <strong class="circle-percent"></strong>
-    </div>
-<div class="second circle" circleProgress='70'>
-        <strong class="circle-percent"></strong>
-    </div>
-</div>
+	<div class="charts">
+		<div class="chart">
+			<h2 data-num="60">0</h2>
+			<svg><circle cx="170" cy="170" r="100"></circle></svg>
+		</div>
+		<div class="chart">
+			<h2 data-num="30">0</h2>
+			<svg><circle cx="170" cy="170" r="100"></circle></svg>
+		</div>
+		<div class="chart">
+			<h2 data-num="20">0</h2>
+			<svg><circle cx="170" cy="170" r="100"></circle></svg>
+		</div>
+		<div class="chart">
+			<h2 data-num="70">0</h2>
+			<svg><circle cx="170" cy="170" r="100"></circle></svg>
+		</div>
+	</div>
   </div>
 
    <script type="text/javascript">
@@ -219,88 +223,6 @@ $(function(){
 });
 </script>
 
-<script>
-/* 발견되면 활성화시키는 라이브러리 시작 */
-function ActiveOnVisible__init() {
-    $(window).resize(ActiveOnVisible__initOffset);
-    ActiveOnVisible__initOffset();
 
-    $(window).scroll(ActiveOnVisible__checkAndActive);
-    ActiveOnVisible__checkAndActive();
-}
-
-function ActiveOnVisible__initOffset() {
-    $('.active-on-visible').each(function(index, node) {
-        var $node = $(node);
-
-        var offsetTop = $node.offset().top;
-        $node.attr('data-active-on-visible-offsetTop', offsetTop);
-
-        if ( !$node.attr('data-active-on-visible-diff-y') ) {
-            $node.attr('data-active-on-visible-diff-y', '0');
-        }
-
-        if ( !$node.attr('data-active-on-visible-delay') ) {
-            $node.attr('data-active-on-visible-delay', '0');
-        }
-    });
-
-    ActiveOnVisible__checkAndActive();
-}
-
-function ActiveOnVisible__checkAndActive() { 
-    $('.active-on-visible:not(.actived)').each(function(index, node) {
-        var $node = $(node);
-
-        var offsetTop = $node.attr('data-active-on-visible-offsetTop') * 1;
-        var diffY = parseInt($node.attr('data-active-on-visible-diff-y'));
-        var delay = parseInt($node.attr('data-active-on-visible-delay'));
-
-        var callbackFuncName = $node.attr('data-active-on-visible-callback-func-name');
-
-        if ( $(window).scrollTop() + $(window).height() + diffY > offsetTop ) {
-            $node.addClass('actived');
-
-            setTimeout(function() {
-                $node.addClass('active');
-                if ( window[callbackFuncName] ) {
-                    window[callbackFuncName]($node);
-                }
-            }, delay);
-        }
-    });
-}
-
-$(function() {
-    ActiveOnVisible__init();
-})
-/* 발견되면 활성화시키는 라이브러리 끝 */
-
-
-function Circle__run() {
-    $(".second.circle").each(function(index, node) {
-        var perNum = $(node).attr('circleProgress');
-        
-        $(this).circleProgress({
-            value: perNum / 170,
-            startAngle: 300,
-            thickness: 3,
-            fill: {
-                gradient: ["#ffca3b", "#ff9998"],
-                gradientAngle: Math.PI / 2
-            },
-            animation: {
-                duration: 2200,
-                easing: "swing"
-            },
-            lineCap: "butt",
-            reverse: true
-    
-        }).on('circle-animation-progress', function (event, progress) {
-            $(this).find('.circle-percent').html(Math.round(perNum * progress) + '<i>%</i>');
-        });
-    });
-}
-</script>
  </body>
 </html>
