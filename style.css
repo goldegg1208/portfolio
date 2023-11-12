@@ -368,7 +368,7 @@ circle {
 	stroke-width:10;
 	stroke-dasharray:628;
 	stroke-dashoffset:628;
-	animation:line 2s forwards;
+	/*animation:line 2s forwards;*/
 	transform:rotate(-90deg);
 	transform-origin:50% 50%;
 	stroke-linecap:round;
