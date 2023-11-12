@@ -370,6 +370,7 @@ circle {
 	stroke-dashoffset:628;
 	animation:line 2s forwards;
 	transform:rotate(-45deg);
+	transform-origin:50% 50%;
 }
 
 @keyframes line{
