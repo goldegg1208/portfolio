@@ -202,6 +202,8 @@ div, p {
 	font-weight:500;
 	font-size:60px;
 	display:block;
+	line-height:70px;
+	padding-bottom:10px;
 }
 #profile .text h3 {
 	width:100%;
@@ -213,11 +215,17 @@ div, p {
 }
 #profile .text h3 p {
 	float:left; 
-	width:100px;
+	width:150px;
+	font-weight:500;
 }
 #profile .text h3 ul {
 	float:left;
-	width: calc( 100% - 100px ); 
+	width: calc( 100% - 150px ); 
+	list-style:none;
+}
+#profile .text h3 ul li{
+	list-style:none;
+	font-weight:300;
 }
 
 #profile .ani {
