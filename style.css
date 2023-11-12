@@ -170,3 +170,15 @@ div, p {
 	line-height:27px;
 	word-break: keep-all;
 }
+
+.ani {
+	width:1000px;
+	height:1486px;
+	margin: 2% auto;
+	background:url('https://user-images.githubusercontent.com/79674569/282288602-5039bab0-5996-4534-8005-ae893cbcde0a.png')no-repeat;
+	animation: play .8s steps(10) infinite;
+}
+
+@keyframes play {
+  100% { background-position: -6000px; }
+}
