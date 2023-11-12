@@ -324,6 +324,7 @@ div, p {
 #skill .title ul{
 	list-style:none;
 	float:right;
+	padding-top:30px;
 }
 #skill .title li {
 	font-size:15px;
