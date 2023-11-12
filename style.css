@@ -45,7 +45,7 @@ div, p {
 }
 
 .c_area {
-    width:1200px; 
+    width:1000px; 
     margin:0 auto;
 }
 
@@ -66,8 +66,9 @@ div, p {
 }
 
 #main .text h1 {
-    font-size:80px;
-    line-height:90px;
+    font-size:70px;
+    line-height:80px;
+    font-weight:normal;
 }
 
 #main .text h1 p {
@@ -80,7 +81,7 @@ div, p {
 }
 
 #main .text h2 {
-    font-size:20px;
+    font-size:17px;
     line-height:25px;
 }
 
