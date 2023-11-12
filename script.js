@@ -59,6 +59,18 @@ $(function(){
 				$(this).removeClass("active");
 			}
 		});
+
+		$('.up5').each(function(){
+			var $height = $(window).height();
+			var $check = $height * 0.8;
+			var $top = $(window).scrollTop();
+			var $offset = $(this).offset().top;
+			if($top > ($offset - $check)){
+				$(this).addClass("active");
+			}else{
+				$(this).removeClass("active");
+			}
+		});
 	});		
 });
 
