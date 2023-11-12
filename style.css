@@ -139,6 +139,10 @@ div, p {
 	height:100%;
 	min-height:800px;
 	background-color:#f5f2e9;
+	display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
 }
 #story .c_area {
 	background:url('https://user-images.githubusercontent.com/79674569/282286353-293d8452-b893-466f-bdd4-f928f4af3800.jpg')right top no-repeat;
