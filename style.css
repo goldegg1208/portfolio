@@ -142,17 +142,17 @@ div, p {
 }
 #story .c_area {
 	background:url('https://user-images.githubusercontent.com/79674569/282286353-293d8452-b893-466f-bdd4-f928f4af3800.jpg')right top no-repeat;
-	background-size:550px 521px;
+	background-size:450px 426px;
 }
 
-#story .text {width:950px; margin:0 auto; padding-top:20%;}
+#story .text {width:950px; margin:0 auto; padding-top:13%;}
 #story .text h4 {
 	font-family: 'GmarketSans';
 	font-weight:300;
 	color:#46443f;
 	font-size:80px;
 	line-height:90px;
-	padding:0;
+	padding:0 0 50px 0;
 	margin:0;
 }
 #story .text h4 b {
