@@ -1,4 +1,14 @@
 $(function(){
+    $('#main .img').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'0.3s'});
+    $('#main .b_text1').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'0.5s'});
+    $('#main .b_text2').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'0.7s'});
+    $('#main .b_text3').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'0.9s'});
+    $('#main .s_text1').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.1s'});
+    $('#main .s_text2').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.3s'});
+    $('#main .s_text3').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.5s'});
+});
+
+$(function(){
 	$(window).scroll(function(){
 		$('.up0').each(function(){
 			var $height = $(window).height();
