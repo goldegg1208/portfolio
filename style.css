@@ -330,6 +330,8 @@ div, p {
 	line-height:27px;
 	color:#58412b;
 	font-weight:300;
+	height:30px;
+	display:block;
 }
 
 #skill .title li b {
