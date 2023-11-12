@@ -86,7 +86,7 @@ $(function(){
 
 $(function(){
 	var chart = $('.chart');
-	var chartOST = chart.offset().top - 800;
+	var chartOST = chart.offset().top - 1500;
 	
 	$(window).scroll(function(){
 		var currentSCT = $(this).scrollTop();
