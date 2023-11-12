@@ -353,10 +353,10 @@ div, p {
 .charts .chart h2{
 	position:absolute;
 	left:50%;
-	top:-20px;
+	top:-30px;
 	tranform:translate(-50%,-50%);
 	padding:0;
-	margin:0;
+	margin:0 0 0 -10px;
 	color:#fff;
 	font-size:20px;
 	font-family: 'GmarketSans';
