@@ -59,7 +59,7 @@ div, p {
 #main .text {
     z-index:2;
     position:absolute;
-    width:100%;
+    width:1000px;
     color:#fff;
     padding-top:100px;
     font-family: 'GmarketSans';
@@ -97,7 +97,7 @@ div, p {
 #main .img {
     z-index:1;
     positon:absolute;
-    width:100%;
+    width:1000px;
     padding-top:100px;
     text-align:right;
 }
