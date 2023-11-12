@@ -100,3 +100,7 @@ div, p {
     padding-top:100px;
     text-align:right;
 }
+
+#main .img img {
+    width:600px;
+}
