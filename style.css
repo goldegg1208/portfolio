@@ -57,7 +57,7 @@ div, p {
 }
 
 #main .img {
-    z-index:10;
+    z-index:1000000;
     position:absolute;
     width:1000px;
     height:900px;
