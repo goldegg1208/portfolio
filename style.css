@@ -97,7 +97,7 @@ div, p {
 #main .img {
     z-index:1000000;
     position:absolute;
-    width:950px;
+    width:940px;
     top:15%;
     text-align:right;
 }
