@@ -84,6 +84,7 @@ div, p {
     z-index:1000000;
     position:absolute;
     width:1000px;
+    height:800px;
     top:0px;
     text-align:right;
 }
@@ -97,6 +98,7 @@ div, p {
     z-index:1;
     position:absolute;
     width:1000px;
+    height:800px;
     top:100px;
     color:#fff;
     font-family: 'GmarketSans';
