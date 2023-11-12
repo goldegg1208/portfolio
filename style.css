@@ -239,7 +239,7 @@ div, p {
 }
 
 #profile .ani {
-	float:right;
+	position:absolute;
 	overflow:hidden;
 	
 	width:500px;
