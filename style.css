@@ -338,23 +338,13 @@ div, p {
 	font-weight:700;
 }
 
-.a1{
-    margin:100px 0;
-    display:flex;
+.charts{
+	width:100%;
+	margin:30px auto;
+	display:flex;
+	justify-content:center;
 }
-.second {
-    position:relative;
-    width:170px;
-    height:170px;
-    margin-left:70px;
-}
-.second>canvas{
-    width:100%;
-}
-.second > strong {
-    position:absolute; 
-    top:50%; 
-    left:50%; 
-    transform:translatex(-50%) translatey(-50%);
-    font-size:2rem;
+
+.charts .chart{
+	margin:0 20px;
 }
