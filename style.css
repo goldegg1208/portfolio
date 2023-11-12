@@ -69,7 +69,7 @@ div, p {
 }
 
 #main .text h1 p {
-    font-weight:300;
+    font-weight:300 !important;
 }
 
 #main .text h1 b {
