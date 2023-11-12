@@ -102,6 +102,19 @@ div, p {
     text-align:right;
 }
 
+#main .img .ani{
+	width:600px;
+	height:590px;
+	margin: 2% auto;
+	background:url('https://user-images.githubusercontent.com/79674569/282294193-ced6d94d-533a-4d1b-b727-ae30f3dd5265.png')left bottom no-repeat;
+	background-size:3000px 590px;
+	animation: play2 .9s steps(5) infinite;
+}
+
+@keyframes play2 {
+  100% { background-position: -3000px; }
+}
+
 #main .img img {
     width:600px;
 }
