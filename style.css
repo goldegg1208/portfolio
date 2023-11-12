@@ -66,8 +66,8 @@ div, p {
 }
 
 #main .text h1 {
-    font-size:70px;
-    line-height:80px;
+    font-size:80px;
+    line-height:90px;
     font-weight:normal;
 }
 
@@ -86,7 +86,8 @@ div, p {
 }
 
 #main .text h2 p {
-    font-weight:300;
+    font-weight:300 !important;
+    letter-spacing:20px;
 }
 
 #main .text h2 b {
