@@ -56,6 +56,18 @@ div, p {
     background-color:#ffc58a;
 }
 
+#main .img {
+    z-index:10;
+    positon:absolute;
+    width:1000px;
+    padding-top:70px;
+    text-align:right;
+}
+
+#main .img img {
+    width:700px;
+}
+
 #main .text {
     z-index:1;
     position:absolute;
@@ -81,8 +93,8 @@ div, p {
 }
 
 #main .text h2 {
-    font-size:17px;
-    line-height:30px;
+    font-size:15px;
+    line-height:25px;
     letter-spacing:5px;
 }
 
@@ -93,16 +105,4 @@ div, p {
 #main .text h2 b {
     font-weight:700;
     display:block;
-}
-
-#main .img {
-    z-index:2;
-    positon:absolute;
-    width:1000px;
-    padding-top:70px;
-    text-align:right;
-}
-
-#main .img img {
-    width:700px;
 }
