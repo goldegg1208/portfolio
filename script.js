@@ -128,7 +128,7 @@ function Circle__run() {
             startAngle: 300,
             thickness: 3,
             fill: {
-                gradient: ["#8780ff", "#ff9998"],
+                gradient: ["#ffca3b", "#ffca3b"],
                 gradientAngle: Math.PI / 2
             },
             animation: {
