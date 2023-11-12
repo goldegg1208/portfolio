@@ -451,9 +451,21 @@ circle {
 	text-align:center;
 	width:220px;
 }
+
 .charts .chart h3 b{
 	font-weight:700;
 	display:block;
 }
 
-
+#portfolio {
+	width:100%;
+	height:100%;
+	min-height:800px;
+	background:url('https://user-images.githubusercontent.com/79674569/282318881-1a0f4d64-c00b-46e4-bff8-6292cf7fd99c.jpg')center no-repeat;
+	background-size:cover;
+	background-attachment: fixed;
+	display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+}
