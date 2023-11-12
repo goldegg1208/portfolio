@@ -57,6 +57,8 @@ div, p {
 }
 
 #main .text {
+    z-index:2;
+    position:absolute;
     width:100%;
     color:#fff;
     padding-top:100px;
@@ -89,4 +91,12 @@ div, p {
 #main .text h2 b {
     font-weight:700;
     display:block;
+}
+
+#main .img {
+    z-index:1;
+    positon:absolute;
+    width:100%;
+    padding-top:100px;
+    text-align:right;
 }
