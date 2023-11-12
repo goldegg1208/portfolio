@@ -65,17 +65,17 @@ div, p {
     font-family: 'GmarketSans';
 }
 
-#main .text h1 {
+#main .text h3 {
     font-size:80px;
     line-height:90px;
     font-weight:normal;
 }
 
-#main .text h1 p {
+#main .text h3 p {
     font-weight:300 !important;
 }
 
-#main .text h1 b {
+#main .text h3 b {
     font-weight:700;
     display:block;
 }
