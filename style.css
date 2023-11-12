@@ -443,7 +443,11 @@ circle {
 	font-family: 'GmarketSans';
 	color:#58412b;
 	font-weight:300;
+	text-align:center;
 }
-
+.charts .chart h3 b{
+	font-weight:700;
+	display:block;
+}
 
 
