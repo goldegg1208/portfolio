@@ -89,7 +89,7 @@ $(function(){
 	var chartOST = chart.offset().top - 800;
 	
 	$(window).scroll(function(){
-		var currentSCT = $(this).scrolltop();
+		var currentSCT = $(this).scrollTop();
 		if(currentSCT >= chartOST){
 			chart.each(function(){
 				var item = $(this);
