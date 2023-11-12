@@ -1,4 +1,6 @@
 <!--폰트-->
+@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+
 @font-face {
     font-family: 'GmarketSans';
     font-weight: 300;
@@ -134,4 +136,12 @@ div, p {
 	height:100%;
 	min-height:800px;
 	background-color:#f5f2e9;
+}
+
+#story .text {width:980px; margin:0 auto;}
+#story .text p {
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+	color:rgba(0,0,0,.5);
+	line-height:27px;
 }
