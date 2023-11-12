@@ -26,14 +26,53 @@ body {
   padding:0;
 }
 
-div {
-  padding:0;
-  margin:0;
+div, p {
+    padding:0;
+    margin:0;
+}
+
+.c_area {
+    width:1200px; 
+    margin:0 auto;
 }
 
 #main {
-  width:100%;
-  height:900px;
+    width:100%;
+    height:900px;
+    
+    background-color:#ffc58a;
+}
 
-  background-color:#ffc58a;
+#main .text {
+    width:100%;
+    color:#fff;
+    padding-top:100px;
+}
+
+#main .text h1 {
+    font-size:53px;
+    line-height:56px;
+}
+
+#main .text h1 p {
+    font-family: 'GmarketSansLight';
+}
+
+#main .text h1 b {
+    font-family: 'GmarketSansBold';
+    display:block;
+}
+
+#main .text h2 {
+    font-size:12px;
+    line-height:18px;
+}
+
+#main .text h2 p {
+    font-family: 'GmarketSansLight';
+}
+
+#main .text h2 b {
+    font-family: 'GmarketSansBold';
+    display:block;
 }
