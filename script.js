@@ -85,8 +85,11 @@ $(function(){
 });
 
 $(function(){
+	var $height2 = $(window).height();
+	var $check2 = $height * 0.8;
+	
 	var chart = $('.chart');
-	var chartOST = chart.offset().top - 1500;
+	var chartOST = chart.offset().top - $check2;
 	var excuted = false;
 	
 	$(window).scroll(function(){
