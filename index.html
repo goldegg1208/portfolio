@@ -147,10 +147,10 @@ $(function(){
 				duration:1500,
 				progress:function(){
 					var now = this.rate;
-					var amount = 630 - (630*now/100)
+					var amount = 630 - (630 * now/100);
 					console.log(now);
 					title.text(Math.floor(now));
-					circle.css({strokeDashoffset:amount})
+					circle.css({strokeDashoffset:amount});
 				}
 		});
 		
