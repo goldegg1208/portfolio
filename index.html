@@ -134,10 +134,9 @@
   </div>
 <script type="text/javascript">
 $(function(){
-	var charts = $('.chart');
+	var charts = $('.charts');
 	var chart = $('.chart');
 	var chartOST = chart.offset().top - 700;
-	var excuted = false;
 
 	$(window).scroll(function(){
 		var currentSTC = $(this).scrollTop();
@@ -155,7 +154,7 @@ $(function(){
 							progress:function(){
 								var now = this.rate;
 								var amount = 630 - (630 * now/100);
-								console.log(now);
+								
 								title.text(Math.floor(now));
 								circle.css({strokeDashoffset:amount});
 							}
