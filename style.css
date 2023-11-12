@@ -72,6 +72,21 @@ div, p {
 
 .op_0 {opacity:0.0;}
 
+.up0{transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.1s}
+.up0.active{transform:translateY(0px); opacity:1;}
+
+.up1{transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.3s}
+.up1.active{transform:translateY(0px); opacity:1;}
+
+.up2{transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.5s}
+.up2.active{transform:translateY(0px); opacity:1;}
+
+.up3{transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.7s}
+.up3.active{transform:translateY(0px); opacity:1;}
+
+.up4{transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.9s}
+.up4.active{transform:translateY(0px); opacity:1;}
+
 #main {
     width:100%;
     height: 100%; 
