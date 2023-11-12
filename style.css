@@ -334,8 +334,12 @@ div, p {
 	height:30px;
 	display:block;
 	background:url('https://user-images.githubusercontent.com/79674569/282318210-c4c4bee5-06b8-488a-93da-6b240c314266.png')left center no-repeat;
-	background-size:27px 3px;
-	padding-left:35px;
+	background-size:37px 4px;
+	padding-left:45px;
+}
+
+#skill .title li:nth-child(5) {
+	background:url('https://user-images.githubusercontent.com/79674569/282318210-c4c4bee5-06b8-488a-93da-6b240c31426611.png')left center no-repeat !important;
 }
 
 #skill .title li b {
