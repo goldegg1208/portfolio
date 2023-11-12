@@ -347,15 +347,19 @@ div, p {
 
 .charts .chart{
 	margin:0 20px;
+	padding:0;
 	position:relative;
 }
 .charts .chart h2{
 	position:absolute;
 	left:50%;
-	top:50%;
+	top:-20px;
 	tranform:translate(-50%,-50%);
 	padding:0;
 	margin:0;
+	color:#fff;
+	font-size:20px;
+	font-family: 'GmarketSans';
 }
 
 .charts .chart svg{
@@ -378,7 +382,6 @@ circle {
 	from{stroke-dashoffset:628;}
 	to{stroke-dashoffset:0;}
 }*/
-
 
 .charts .chart:nth-child(1) circle{
 	stroke:#ffca3b;
