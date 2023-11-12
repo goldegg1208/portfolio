@@ -431,4 +431,19 @@ circle {
 	stroke:#ffca3b;
 }
 
+.charts .chart h3{
+	position:absolute;
+	left:45%;
+	top:150px;
+	tranform:translate(-50%,-50%);
+	padding:0 !important;
+	margin:0 !important;
+	font-size:15px;
+	line-height:22px;
+	font-family: 'GmarketSans';
+	color:#58412b;
+	font-weight:300;
+}
+
+
 
