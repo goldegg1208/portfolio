@@ -242,14 +242,14 @@ div, p {
 	float:right;
 	overflow:hidden;
 	
-	width:400px;
-	height:100%;
+	width:500px;
+	height:743px;
 	margin: 2% auto;
 	background:url('https://user-images.githubusercontent.com/79674569/282289112-1a714e4f-3946-43d1-9191-eb3d91ec3c6a.png')left bottom no-repeat;
-	background-size:2400px 594px;
+	background-size:3000px 743px;
 	animation: play .9s steps(6) infinite;
 }
 
 @keyframes play {
-  100% { background-position: -2400px; }
+  100% { background-position: -3000px; }
 }
