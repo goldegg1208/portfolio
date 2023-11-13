@@ -487,23 +487,24 @@
 		list-style:none;
 		display: flex;
 	        justify-content: start;
+		margin-left:-15px;
 	}
 	
 	#portfolio .port_info .scale li{
 		list-style:none;
-		width:90px;
+		width:95px;
 		overflow:hidden;
 	}
 	
 	#portfolio .port_info .scale .round{
-		width:90px; 
+		width:95px; 
 		height:70px;
 		background:url('https://user-images.githubusercontent.com/79674569/282358709-ba8e6571-9c58-4aba-85f1-25fff4cba5f3.png')center top no-repeat;
 		background-size:70px 70px;
 	}
 	
 	#portfolio .port_info .scale .round p {
-		width:90px;
+		width:95px;
 		height:70px;
 		background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
 		background-size:70px 70px;
@@ -538,7 +539,7 @@
 		color:#fff;
 		font-family: 'GmarketSans';
 		font-size:11px;
-		line-height:15px;
+		line-height:14px;
 		font-weight:300;
 	}
 	
@@ -554,7 +555,6 @@
 	#portfolio .port_info .info span{
 		display:block;
 		width:100%;
-		padding-bottom:5px;
 	}
 	
 	.pp_01{background:url('https://user-images.githubusercontent.com/79674569/282347198-195a19df-fab5-4d45-8b97-0cd7b578c834.jpg')center no-repeat; background-size:cover;}
