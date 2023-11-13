@@ -551,7 +551,6 @@ circle {
 #portfolio .port_info .scale{
 	float:left;
 	overflow:hidden;
-	width:320px;
 }
 
 #portfolio .port_info .scale ul{
@@ -615,12 +614,11 @@ circle {
 
 #portfolio .port_info .info{
 	float:right;
-	width: calc( 100% - 320px );
 	text-align:right;
 	font-family: 'GmarketSans';
 	font-size:15px;
 	font-weight:300;
-	padding-top:150px;
+	padding-top:130px;
 }
 
 #portfolio .port_info .info span{
