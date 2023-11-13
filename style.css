@@ -527,6 +527,7 @@ circle {
 #portfolio .port_list .img a {
 	position:absolute;
 	z-index:111111111111;
+	margin-top:210px;
 }
 
 #portfolio .port_list .img a:hover{
@@ -535,7 +536,7 @@ circle {
 }
 
 #portfolio .port_list .img a img{
-	width:100px;
+	width:120px;
 }
 
 #portfolio .port_list .img .pc{
