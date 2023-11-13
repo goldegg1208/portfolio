@@ -33,30 +33,27 @@
 	#main .img {
 	    z-index:1000000;
 	    position:absolute;
-	    width:100%;
-	    top:15%;
-	    text-align:right;
+	    top:55%;
+	    text-align:center;
 	}
 	
 	#main .img .ani{
-		float:right;
-		width:200px;
-		height:197px;
+		width:250px;
+		height:246px;
 		margin: 2% auto;
 		background:url('https://user-images.githubusercontent.com/79674569/282300394-b798b74e-d4b7-41e0-897c-c7dfe40d7396.png')left bottom no-repeat;
-		background-size:2000px 197px;
+		background-size:2500px 246px;
 		animation: play2 1.4s steps(10) infinite;
 	}
 	
 	@keyframes play2 {
-	  100% { background-position: -2000px; }
+	  100% { background-position: -2500px; }
 	}
 	
 	
 	#main .text {
 	    z-index:1;
 	    position:absolute;
-	    width:100%;
 	    top:18%;
 	    color:#fff;
 	    font-family: 'GmarketSans';
