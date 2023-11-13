@@ -561,19 +561,19 @@ circle {
 
 #portfolio .port_info .scale li{
 	list-style:none;
-	width:120px;
+	width:130px;
 	overflow:hidden;
 }
 
 #portfolio .port_info .scale .round{
-	width:100px; 
+	width:130px; 
 	height:100px;
 	background:url('https://user-images.githubusercontent.com/79674569/282358709-ba8e6571-9c58-4aba-85f1-25fff4cba5f3.png')center top no-repeat;
 	background-size:100px 100px;
 }
 
 #portfolio .port_info .scale .round p {
-	width:100px;
+	width:130px;
 	height:100px;
 	background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
 	background-size:100px 100px;
@@ -655,14 +655,14 @@ circle {
 
 .swiper-button-prev{
 	color: #fff !important;
-	left:-100px !important;
-	z-index:1111111111111;
+	left:100px !important;
+	z-index:1111111111111111111111;
 	position:absolute;
 }
 .swiper-button-next {
 	color: #fff !important;
 	right:-100px !important;
-	z-index:1111111111111;
+	z-index:1111111111111111111111;
 	position:absolute;
 }
 
