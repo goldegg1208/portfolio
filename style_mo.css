@@ -440,7 +440,10 @@
 	#portfolio .port_list .img a {
 		position:absolute;
 		z-index:111111111111;
-		margin-top:270px;
+		margin-top:170px;
+		margin-left:60px;
+		left:50%;
+		margin-left:
 	}
 	
 	#portfolio .port_list .img a:hover{
@@ -449,7 +452,7 @@
 	}
 	
 	#portfolio .port_list .img a img{
-		width:80px;
+		width:90px;
 	}
 	
 	#portfolio .port_list .img .pc{
@@ -663,10 +666,12 @@
 		background:#f5f2e9 url('https://user-images.githubusercontent.com/79674569/282392169-51d58dee-69fd-4ede-a9ca-28433b55fc09.jpg')center bottom no-repeat;
 		background-size:100%;
 		background-attachment: fixed;
-		padding-top:80px;
+		padding-top:50px;
+		padding-bottom:120px;
 	}
 	
 	#epil h2 {
+		text-align:center;
 		width:100%;
 		font-size:25px;
 		line-height:35px;
@@ -680,6 +685,7 @@
 	#epil h2 b{
 		color:#ffb400;
 		font-weight:700;
+		display:block;
 	}
 	
 	#epil p {
@@ -690,12 +696,12 @@
 		color:rgba(0,0,0,.5);
 		line-height:22px;
 		word-break: keep-all;
+		text-align:Center;
 	}
 	
 	#ending{
 		width:100%;
 		height:100%;
-		min-height:800px;
 		background:#ffc58a url('https://user-images.githubusercontent.com/79674569/282395044-ef77c207-2047-4c7e-bc97-2c9a3f8b5ff9.png')center bottom no-repeat;
 		background-size:250px 180px;
 		background-attachment: fixed;
@@ -708,31 +714,31 @@
 		color:#fff;
 		font-family: 'GmarketSans';
 		background-image: linear-gradient(to bottom, rgba(255,197,138,1), rgba(255,197,138,0));
-		padding:150px 0 50px 0;
+		padding:50px 0 30px 0;
 	}
 	
 	#ending .text h2{
-		font-size:50px;
+		font-size:30px;
 		font-weight:700;
 		padding:0;
 		margin:0;
 	}
 	#ending .text h3{
-		font-size:30px;
+		font-size:18px;
 		font-weight:300;
 		padding:10px 0 0 0;
 		margin:0;
 	}
 	#ending .text span{
-		margin:30px auto;
+		margin:15px auto;
 		display:block;
 		width:1px;
 		height:30px;
 		background-color:#fff;
 	}
 	#ending .text p{
-		font-size:15px;
-		line-height:25px;
+		font-size:11px;
+		line-height:20px;
 		font-weight:300;
 		letter-spaicng:3px;
 	}
