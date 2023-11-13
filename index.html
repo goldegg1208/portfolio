@@ -205,7 +205,7 @@
   <script>
     var swiper = new Swiper('.mySwiper', {
 	  speed: 500,
-	  slidesPerView: 2,
+	  slidesPerView: 1,
 	  loop: true,
 	   navigation: {
 	    nextEl: '.swiper-button-next',
@@ -217,9 +217,7 @@
 	    clickable: true,
 	  },
 	  on: {
-	    activeIndexChange: function () {
-	      alert(this.realIndex+'번째 slide입니다.');
-	    }
+		    
 	  }
 	});
   </script>
