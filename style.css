@@ -91,7 +91,7 @@ div, p {
 .up5.active{transform:translateY(0px); opacity:1;}
 
 .btn_pdf {
-	positon:fixed;
+	position:fixed;
 	bottom:50px;
 	right:50px;
 	z-index:11111111111;
