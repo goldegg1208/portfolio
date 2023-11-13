@@ -668,19 +668,19 @@ circle {
 }
 
 .swiper-slide-active h3 {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.8s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.3s;
 }
 
 .swiper-slide-active .info_text {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:1.6s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
 .swiper-slide-active .pc {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.4s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
 .swiper-slide-active .mo {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:1.2s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.7s;
 }
 
 
