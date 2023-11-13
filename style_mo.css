@@ -468,7 +468,7 @@
 		background-color:#ccc;
 		border-radius:20px;
 		box-shadow:10px 10px 10px rgba(0,0,0,.1);
-		margin:-150px 0 0 10px;
+		margin:-90px 0 0 60px;
 		left:50%;
 	}
 	
@@ -548,7 +548,6 @@
 		font-size:12px;
 		line-height:22px;
 		font-weight:300;
-		padding-top:10px;
 	}
 	
 	#portfolio .port_info .info span{
