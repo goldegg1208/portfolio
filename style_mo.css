@@ -553,6 +553,8 @@
 	
 	#portfolio .port_info .info span{
 		display:block;
+		width:100%;
+		padding-bottom:5px;
 	}
 	
 	.pp_01{background:url('https://user-images.githubusercontent.com/79674569/282347198-195a19df-fab5-4d45-8b97-0cd7b578c834.jpg')center no-repeat; background-size:cover;}
