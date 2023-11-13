@@ -547,6 +547,65 @@ circle {
 	float:left;
 }
 
+#portfolio .port_info .scale ul{
+	list-style:none;
+}
+
+#portfolio .port_info .scale li{
+	float:left;
+	width:30%; margin-right:5%;
+}
+
+#portfolio .port_info .scale li:nth-child(3){
+	margin-right:0;
+}
+
+#portfolio .port_info .scale .round{
+	width:100%; 
+	height:100px;
+	background:url('https://user-images.githubusercontent.com/79674569/282358709-ba8e6571-9c58-4aba-85f1-25fff4cba5f3.png')center top no-repeat;
+	background-size:100px 100px;
+}
+
+#portfolio .port_info .scale .round p {
+	width:100%;
+	height:100px;
+	background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
+	background-size:100px 100px;
+	text-align:100%;
+	line-height:100px;
+	color:#ffdf2e;
+	font-family: 'GmarketSans';
+	font-size:17px;
+	font-weight:500;
+}
+
+#portfolio .port_info .scale .round p span{
+	color:#fff;
+	font-weight:300;
+	font-size:11px;
+}
+
+#portfolio .port_info .scale .round .on_100 {
+	background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
+	background-size:100px 100px;
+}
+
+#portfolio .port_info .scale .round .on_50 {
+	background:url('https://user-images.githubusercontent.com/79674569/282358712-e624a28a-8c68-4696-ac8e-ff00fb6d6657.png')center top no-repeat;
+	background-size:100px 100px;
+}
+
+#portfolio .port_info .scale .round h4{
+	width:100%;
+	padding:15px 0 0 0;
+	text-align:Center;
+	color:#fff;
+	font-family: 'GmarketSans';
+	font-size:15px;
+	font-weight:300;
+}
+
 #portfolio .port_info .info{
 	float:right;
 	text-align:right;
