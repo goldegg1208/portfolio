@@ -98,7 +98,7 @@
 	
 	#story {
 		width:100%;
-		height:100%;
+		ovreflow:hiddn;
 		background:#f5f2e9 url('https://user-images.githubusercontent.com/79674569/282286353-293d8452-b893-466f-bdd4-f928f4af3800.jpg')center top no-repeat;
 		background-size:250px 237px;
 		background-attachment: fixed;
@@ -203,17 +203,17 @@
 		position:absolute;
 		overflow:hidden;
 		left:50%;
-		margin-left:-500px;
-		width:500px;
-		height:743px;
+		margin-left:-150px;
+		width:200px;
+		height:297px;
 		margin: 2% auto;
 		background:url('https://user-images.githubusercontent.com/79674569/282292508-a98db6d8-285d-4d10-bdd5-f9dfb06445d3.png')left bottom no-repeat;
-		background-size:3000px 743px;
+		background-size:1200px 297px;
 		animation: play .9s steps(6) infinite;
 	}
 	
 	@keyframes play {
-	  100% { background-position: -3000px; }
+	  100% { background-position: -1200px; }
 	}
 	
 	#skill {
