@@ -659,23 +659,21 @@
 	
 	#epil {
 		width:100%;
-		height:100%;
-		min-height:800px;
+		height:auto;
 		background:#f5f2e9 url('https://user-images.githubusercontent.com/79674569/282392169-51d58dee-69fd-4ede-a9ca-28433b55fc09.jpg')center bottom no-repeat;
 		background-size:100%;
 		background-attachment: fixed;
-		padding-top:150px;
+		padding-top:80px;
 	}
 	
 	#epil h2 {
-		float:left; 
-		width:35%; margin-right:5%;
-		font-size:60px;
-		line-height:70px;
+		width:100%;
+		font-size:25px;
+		line-height:35px;
 		font-family: 'GmarketSans';
 		color:#46443f;
 		font-weight:300;
-		padding:0;
+		padding:0 0 20px 0;
 		margin:0;
 		
 	}
@@ -685,11 +683,12 @@
 	}
 	
 	#epil p {
-		float:left; width:60%;
+		width:100%;
+		overflow:hidden;
 		font-family: 'Noto Sans KR', sans-serif;
-		font-size:15px;
+		font-size:12px;
 		color:rgba(0,0,0,.5);
-		line-height:27px;
+		line-height:22px;
 		word-break: keep-all;
 	}
 	
@@ -698,7 +697,7 @@
 		height:100%;
 		min-height:800px;
 		background:#ffc58a url('https://user-images.githubusercontent.com/79674569/282395044-ef77c207-2047-4c7e-bc97-2c9a3f8b5ff9.png')center bottom no-repeat;
-		background-size:555px 400px;
+		background-size:250px 180px;
 		background-attachment: fixed;
 	}
 	
