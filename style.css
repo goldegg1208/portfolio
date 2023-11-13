@@ -511,7 +511,21 @@ circle {
 	float:left;
 	width:500px;
 	overflow:hidden;
+}
+
+#portfolio .port_list .img .pc{
+	width:100%;
+	height:300px;
 	background-color:#fff;
+	border-radius:25px;
+}
+#portfolio .port_list .img .mo{
+	position:absolute;
+	z-index:111111;
+	width:180px;
+	height:300px;
+	background-color:#ccc;
+	border-radius:35px;
 }
 
 .swiper {
