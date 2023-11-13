@@ -155,387 +155,63 @@
 	</div>
   </div>
   <div id="portfolio">
-
-<div class="wrapper">
 	<style>
-		.wrapper {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-	border: 1px solid white;
-	height: 400px;
-	max-width: 800px;
-	margin: 100px;
-}
+		.swiper-container {
+    width: 100%;
+    height: 100vh;
 
-.swiper-container {
-	width: 100%;
-	height: 100%;
-	box-shadow: 13px 25px 98px 2px lighten(#E7CDCF,10%);
-	border-radius: 5px;
-}
+    .swiper-wrapper {
 
+        .swiper-slide {
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-position: center;
+            
+            p {
+                position: absolute;
+                top: 40%;
+                left: 10%;
+                color: #ffffff;
+                font-size: 3.5vw;
+                font-weight: bold;
+            }
+        }
 
+        .swiper-slide-active {
 
-.swiper-slide {
-	display: flex;
-	justify-content: center;
-	align-items: flex-start;
-	width:300px;
-	min-width:300px;
-	text-align: center;
-	font-size: 18px;
-	background: #fff;
-	
-	opacity: 1;
-	transform: translateX(0px);
-	//transition: all 0.5s ease-in;
-	
-	
-		.slider {
-			&__img-part {
-				display: flex;
-				flex-direction: column;
-				justify-content: flex-start;
-				align-items: flex-start;
-				min-width: 300px;
-				width: 300px;
-
-				&__container {
-					display: flex;
-					justify-content: flex-start;
-					align-items: flex-start;
-					width: 0;
-					min-width: 0;
-					opacity: 1;
-					overflow:hidden;
-					transition: width 0.5s 0.4s;
-				}
-
-				&__img {
-					width: 300px;
-					height:auto;
-					opacity: 1;
-					border-radius: 3px;
-				}	
-
-				&__desc {
-					padding-top: 10px;
-					width: 100%;
-					color: lighten(#532458, 20%);
-					font-size: 13px;
-					font-style: italic;
-					text-align: center;
-					opacity: 1;
-					transition: opacity 0.5s 1.4s;
-				}
-			}
-
-
-			&__content {
-				display: flex;
-				flex-direction: column;
-				justify-content: space-between;
-				align-items: center;
-
-				
-				&__title {
-					margin: 0;
-					padding: 40px 40px;
-					width: 100%;
-					background-color: #E7CDCF;
-					font-size: 30px;
-					font-weight: bold;
-					font-style: italic;
-					color: white;
-					opacity: 1;
-					transform: translatex(0);
-					transition: transform 0.8s 0.6s,
-						opacity 0.8s 0.6s;
-				}
-
-				&__desc {
-					margin: 0;
-					padding: 50px 40px;
-					font-size: 18px;
-					color: #532458;
-					opacity: 1;
-					transform: translatex(0);
-					transition: transform 0.8s 0.8s,
-						opacity 0.8s 0.8s;
-					
-				}
-			}
-
-		}
-
-	
-	&-prev {
-		.slider {
-			&__img-part {
-				
-				&__container {
-					width: 0;
-					transition: width 0.5s 0.4s;
-
-				}	
-				&__img {
-
-				} 
-				&__desc {
-				opacity: 0;
-				transition: opacity 0.3s 1.4s;
-			
-			} 
-			}
-			
-			&__content {
-
-				
-				&__title {
-				opacity:0;
-				transform: translatex(450px);
-				transition: transform 0.8s 0.6s,
-						opacity 0.8s 0.6s;
-				}
-
-				&__desc {
-				opacity:0;
-				transform: translatex(450px);
-				transition: transform 0.8s 0.8s,
-						opacity 0.8s 0.8s;
-				}
-			}
-		}
-		
-	}
-	
-	&-active {
-		.slider {
-			&__img-part {
-				&__container {
-					width: 300px;
-					opacity: 1;
-					transition:width 0.5s 0.4s;
-				}
-				&__img {
-
-				}
-				&__desc {
-					opacity: 1;
-					transition: opacity 0.5s 1s;
-				} 
-			}
-					
-			&__content {
-				
-	
-				
-				&__title {
-				opacity: 1;
-				transform: translatex(0);
-				transition: transform 0.8s 0.6s,
-						opacity 0.8s 0.6s;
-				}
-
-				&__desc {
-				opacity: 1;
-				transform: translatex(0);
-				transition: transform 0.8s 0.8s,
-						opacity 0.8s 0.8s;
-				}
-			}
-			
-		}
-
-	}
-	
-	
-	&-next {
-		
-		.slider {
-			&__img-part {
-				&__container {
-					width: 0px;
-					transition: width 0.5s 0.4s;
-				}
-				&__img {
-				} 
-				&__desc {
-					opacity: 0;
-					transition: opacity 0.3s 1s;
-				} 
-			}
-						
-			&__content {
-			
-
-				
-				&__title {
-				opacity: 0;
-				transform: translatex(450px);
-				transition: transform 0.8s 0.6s,
-						opacity 0.8s 0.6s;	
-				}
-
-				&__desc {
-				opacity: 0;
-				transform: translatex(450px);
-				transition: transform 0.8s 0.8s,
-						opacity 0.8s 0.8s;	
-				}
-			}
-			
-		}
-			
-	}
-	
-}
-
-.swiper-button-next.slider-next,
-.swiper-button-prev.slider-prev {
-	top: 85%;
-	background-image: none;
-	background-color: white;
-	border-radius: 5px;
-	width: 40px;
-	height: 40px;
-	
-	&:before,
-	&:after {
-		background-color: #D09FA3;
-		border-radius:3px;
-		
-		transition: background-color 0.2s ease-out;
-	}
-	
-	&:hover {
-		&:before,
-		&:after {
-			background-color: darken(#D09FA3, 30%);
-		}
-	}
-}
-
-.swiper-button-next.slider-next {
-	right: 100px;
-	border: 1px solid #D09FA3;
-
-	&:before,
-	&:after {
-		content: "";
-		right: 16px;
-    display: flex;
-    position: absolute;
-    height: 13px;
-    width: 3px;
-    
-	}
-	
-	&:before {
-		top: 10px;
-		transform: rotate(-45deg);
-	}
-	&:after {
-		top: 18px;
-		transform: rotate(45deg);
-	}
-}
-.swiper-button-prev.slider-prev {
-	right: 170px;
-	left: auto;
-	border: 1px solid #D09FA3;
-	
-	&:before,
-	&:after {
-		content: "";
-		left: 18px;
-    display: flex;
-    position: absolute;
-    height: 13px;
-    width: 3px;
-
-	}
-	
-	&:before {
-		top: 10px;
-		transform: rotate(45deg);
-	}
-	&:after {
-		top: 18px;
-		transform: rotate(-45deg);
-	}
-}
-
+            p {
+                animation-name: fade-in;
+                animation-duration: 2s;
+                animation-delay: 2s;
+                animation-fill-mode: both;
+            }
+        }
+    }
 	</style>
-	<!-- Swiper -->
-	<div class="swiper-container">
-		<div class="swiper-wrapper">
-			<!--slide 1 -->
-			<div class="swiper-slide">
-				<div class="slider__img-part">
-					<div class="slider__img-part__container">
-						<img class="slider__img-part__img" src="https://source.unsplash.com/random/300x300">						
-					</div>
-
-					<span class="slider__img-part__desc">
-						Lorem ipsum dolor.
-					</span>
-				</div>
-				
-				<div class="slider__content">
-					<h1 class="slider__content__title">Slide 1</h1>
-					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
-				</div>
-			</div>
-			
-			<!--slide 2 -->
-			<div class="swiper-slide">
-				<div class="slider__img-part">
-					<div class="slider__img-part__container">
-						<img class="slider__img-part__img" src="https://source.unsplash.com/random/300x310">
-					</div>
-					<span class="slider__img-part__desc">
-						Lorem ipsum dolor.
-					</span>
-				</div>
-				<div class="slider__content">
-					<h1 class="slider__content__title">Slide 2</h1>
-					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
-				</div>
-			</div>
-			
-			<!--slide 3 -->
-			<div class="swiper-slide">
-				<div class="slider__img-part">
-					<div class="slider__img-part__container">
-						<img class="slider__img-part__img" src="https://source.unsplash.com/random/310x300">
-					</div>
-					<span class="slider__img-part__desc">
-						Lorem ipsum dolor.
-					</span>
-				</div>
-				<div class="slider__content">
-					<h1 class="slider__content__title">Slide 3</h1>
-					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
-				</div>
-			</div>
-		</div>
-	<!-- Add Arrows -->
-		<div class="swiper-button-next slider-next"></div>
-		<div class="swiper-button-prev slider-prev"></div>
+	  <div class="swiper-container">
+	    <div class="swiper-wrapper">
+	        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/325/700/400/);"><p>Lorem ipsum<br>dolor sit amet</p></div>
+	        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/548/700/400/);"><p>Lorem ipsum<br>dolor sit amet</p></div>
+	        <div class="swiper-slide" style="background-image: url(https://picsum.photos/id/550/700/400/);"><p>Lorem ipsum<br>dolor sit amet</p></div>
+	    </div>
+	    <div class="swiper-button-prev"></div>
+	    <div class="swiper-button-next"></div>
 	</div>
-</div>
 
 	  <script>
-		  var swiper = new Swiper('.swiper-container', {
- 	effect:"fade",
-	navigation: {
-		nextEl: '.swiper-button-next',
-		prevEl: '.swiper-button-prev',
-	},
-});
+		  var mySwiper = new Swiper ('.swiper-container', {
+	    loop: true,
+	    autoplay: {
+	        delay: 4000,
+	    },
+	    speed: 2000,
+	
+	    navigation: {
+	        nextEl: '.swiper-button-next',
+	        prevEl: '.swiper-button-prev',
+	    },
+	});
+
 	  </script>
 	  
   </div>
