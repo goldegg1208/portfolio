@@ -258,7 +258,7 @@
     });
 -->
 	var swiper = new Swiper('.swiper01', {
-           loop:true,
+	           loop:true,
 		   speed:5000,
 		   effect : 'fade',
 		   autoplay:{delay:5000},
@@ -266,6 +266,10 @@
 			  el: ".main-page",
 			  clickable: true,
 			},
+		navigation: {
+		        nextEl: ".swiper-button-next",
+		        prevEl: ".swiper-button-prev",
+		},
         });
   </script>
 
