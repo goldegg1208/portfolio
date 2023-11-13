@@ -822,6 +822,7 @@ circle {
 #ending .img{
 	width:100%;
 	height:100%;
+	min-height:800px;
 	backgroud:#ffc58a url('https://user-images.githubusercontent.com/79674569/282395044-ef77c207-2047-4c7e-bc97-2c9a3f8b5ff9.png')center bottom no-repeat;
 	background-size:416px 300px;
 }
