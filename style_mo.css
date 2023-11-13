@@ -630,12 +630,13 @@
 	}
 	
 	.swiper-pagination {
+		opacity:0.0;
 	}
 	
 	.swiper-pagination-bullet{
 		background-color: #fff !important;
 		bottom:-10px !important;
-		opacity:0.0;
+		
 	}
 	
 	.swiper-button-prev{
