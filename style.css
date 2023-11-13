@@ -492,6 +492,7 @@ circle {
 	margin:0;
 	overflow:hidden;
 	text-shadow:20px 20px 20px rgba(0,0,0,.1);
+	transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.1s
 }
 
 #portfolio .port_list .text h3{
@@ -500,6 +501,7 @@ circle {
 	font-weight:300;
 	padding:150px 0 60px 0;
 	margin:0;
+	transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.3s
 }
 
 #portfolio .port_list .text p{
@@ -511,6 +513,7 @@ circle {
 	letter-spacing:-1px;
 	opacity:0.7;
 	padding-right:50px;
+	transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.5s
 }
 
 #portfolio .port_list .img{
@@ -524,6 +527,7 @@ circle {
 	height:273px;
 	background-color:#fff;
 	border-radius:25px;
+	transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.1s
 }
 
 #portfolio .port_list .img .mo{
@@ -535,6 +539,7 @@ circle {
 	border-radius:35px;
 	box-shadow:20px 20px 20px rgba(0,0,0,.1);
 	margin:-180px 0 0 240px;
+	transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.3s
 }
 
 #portfolio .port_info{
@@ -650,9 +655,21 @@ circle {
 }
 
 .swiper-slide-active h2 {
-    transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.1s
+    transform:translateY(0px); opacity:1;
 }
 
 .swiper-slide-active h3 {
-    transform:translateY(30px); opacity:0;transition:all 1s; transition-delay:0.3s
+    transform:translateY(0px); opacity:1;
+}
+
+.swiper-slide-active p {
+    transform:translateY(0px); opacity:1;
+}
+
+.swiper-slide-active pc {
+    transform:translateY(0px); opacity:1;
+}
+
+.swiper-slide-active mo {
+    transform:translateY(0px); opacity:1;
 }
