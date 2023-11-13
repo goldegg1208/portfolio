@@ -653,6 +653,10 @@ circle {
 .swiper-pagination {
 }
 
+.sample-slider .swiper-pagination-bullet{
+    background-color: #fff;
+}
+
 .swiper-button-prev{
 	opacity:0.0;
 	color: #fff !important;
