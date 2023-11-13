@@ -813,9 +813,10 @@ circle {
 	background-color:#fff;
 }
 #ending .text p{
-	font-size:16px;
+	font-size:15px;
 	line-height:25px;
 	font-weight:300;
+	letter-spaicng:3px;
 }
 #ending .text p b{
 	display:block;
