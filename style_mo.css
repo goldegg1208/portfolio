@@ -246,15 +246,16 @@
 	
 	#skill .title h2 b {
 		font-weight:700;
-		margin-left:3px;
+		margin-left:5px;
 	}
 	
 	#skill .title ul{
 		list-style:none;
-		float:right;
+		width:100%;
 		padding-top:20px;
 	}
 	#skill .title li {
+		text-align:center;
 		font-size:12px;
 		line-height:22px;
 		color:#58412b;
@@ -272,7 +273,8 @@
 	}
 	
 	.charts{
-		width:100%;
+		width:220px;
+		margin:0 auto;
 	}
 	
 	.charts .chart{
