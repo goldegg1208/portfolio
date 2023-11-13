@@ -470,6 +470,21 @@ circle {
         justify-content: center;
 }
 
+#portfolio .port_list{
+	width:100%; overflow:hidden;
+}
+
+#portfolio .port_list .text{
+	float:left;
+	width: calc( 100% - 770px );
+}
+
+#portfolio .port_list .img{
+	float:left;
+	width:770px;
+	overflow:hidden;
+}
+
 .swiper {
       width: 100%;
       height: 100%;
