@@ -805,7 +805,7 @@ circle {
 #ending .text h3{
 	font-size:30px;
 	font-weight:300;
-	padding:10px 0 30px 0;
+	padding:10px 0 0 0;
 	margin:0;
 }
 #ending .text span{
