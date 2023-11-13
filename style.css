@@ -625,15 +625,16 @@ circle {
 .swiper {
       width: 100%;
       height: 100%;
+	
+      display: flex;
+      align-items: center;
+      justify-content: center;
 }
 
 .swiper-slide {
       text-align: center;
       font-size: 18px;
       color: #fff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
 }
 
 .swiper-slide img {
