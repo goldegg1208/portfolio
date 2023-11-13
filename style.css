@@ -650,21 +650,21 @@ circle {
 }
 
 .swiper-slide-active h2 {
-    transform:translateY(0px); opacity:0;transition:all 1s; transition-delay:0.1s;
+    transform:translateY(0px); opacity:1;transition:all 1s; transition-delay:0.1s;
 }
 
 .swiper-slide-active h3 {
-   transform:translateY(0px); opacity:0;transition:all 1s; transition-delay:0.3s;
+   transform:translateY(0px); opacity:1;transition:all 1s; transition-delay:0.3s;
 }
 
 .swiper-slide-active p {
-    transform:translateY(0px); opacity:0;transition:all 1s; transition-delay:0.5s;
+    transform:translateY(0px); opacity:1;transition:all 1s; transition-delay:0.5s;
 }
 
 .swiper-slide-active pc {
-    transform:translateY(0px); opacity:0;transition:all 1s; transition-delay:0.1s;
+    transform:translateY(0px); opacity:1;transition:all 1s; transition-delay:0.1s;
 }
 
 .swiper-slide-active mo {
-    transform:translateY(0px); opacity:0;transition:all 1s; transition-delay:0.3s;
+    transform:translateY(0px); opacity:1;transition:all 1s; transition-delay:0.3s;
 }
