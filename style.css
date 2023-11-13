@@ -480,30 +480,32 @@ circle {
 	text-align:left;
 	font-family: 'GmarketSans';
 	color:#fff;
+	padding-top:100px;
+	
 }
 
 #portfolio .port_list .text h2{
 	position:absolute;
 	font-size:80px;
 	font-weight:700;
-	padding:0 0 30px 0;
+	padding:0;
 	margin:0;
-	height:100px;
 	overflow:hidden;
+	text-shadow:20px 20px 20px rgba(0,0,0,.1);
 }
 
 #portfolio .port_list .text h3{
 	font-size:30px;
 	line-height:42px;
 	font-weight:300;
-	padding:0 0 30px 0;
+	padding:150px 0 30px 0;
 	margin:0;
 }
 
 #portfolio .port_list .text p{
 	font-weight:300;
 	font-size:15px;
-	line-height:30px;
+	line-height:28px;
 	font-family: 'Noto Sans KR', sans-serif;
 	word-break: keep-all;
 }
@@ -528,6 +530,7 @@ circle {
 	background-color:#ccc;
 	border-radius:35px;
 	box-shadow:20px 20px 20px rgba(0,0,0,.1);
+	margin:-100px 0 0 300px;
 }
 
 .swiper {
