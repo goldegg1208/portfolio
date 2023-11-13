@@ -669,8 +669,8 @@ circle {
 }
 
 .swiper-pagination-bullet{
-	background-color: #fff;
-	bottom:-10px;
+	background-color: #fff !important;
+	bottom:-10px !important;
 }
 
 .swiper-button-prev{
