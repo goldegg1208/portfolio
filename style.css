@@ -539,7 +539,7 @@ circle {
 	background-color:#ccc;
 	border-radius:35px;
 	box-shadow:20px 20px 20px rgba(0,0,0,.1);
-	margin:-180px 0 0 270px;
+	margin:-230px 0 0 270px;
 }
 
 #portfolio .port_info{
@@ -656,11 +656,11 @@ circle {
 
 .swiper-button-prev{
 	color: #fff !important;
-	left:100px;
+	left:100px !important;
 }
 .swiper-button-next {
 	color: #fff !important;
-	right:100px;
+	right:100px !important;
 }
 
 .swiper-slide-active h2 {
