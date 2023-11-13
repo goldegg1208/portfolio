@@ -488,7 +488,7 @@ circle {
 	position:absolute;
 	font-size:80px;
 	font-weight:700;
-	padding:0;
+	padding:0 25px;
 	margin:0;
 	overflow:hidden;
 	text-shadow:20px 20px 20px rgba(0,0,0,.1);
@@ -508,6 +508,8 @@ circle {
 	line-height:28px;
 	font-family: 'Noto Sans KR', sans-serif;
 	word-break: keep-all;
+	letter-spacing:-1px;
+	opacity:0.7;
 }
 
 #portfolio .port_list .img{
