@@ -52,22 +52,20 @@
 	  100% { background-position: -2000px; }
 	}
 	
-	#main .img img {
-	    width:600px;
-	}
 	
 	#main .text {
 	    z-index:1;
 	    position:absolute;
-	    width:950px;
+	    width:100%;
 	    top:18%;
 	    color:#fff;
 	    font-family: 'GmarketSans';
+	    text-align:center;
 	}
 	
 	#main .text h3 {
-		font-size:82px;
-		line-height:92px;
+		font-size:32px;
+		line-height:42px;
 		font-weight:normal;
 		padding:0;
 		margin:0;
@@ -83,8 +81,8 @@
 	}
 	
 	#main .text h2 {
-	    font-size:15px;
-	    line-height:25px;
+	    font-size:10px;
+	    line-height:20px;
 	    letter-spacing:5px;
 	     padding:60px 0 0 0;
 		margin:0;
