@@ -252,17 +252,16 @@
 	#skill .title ul{
 		list-style:none;
 		width:100%;
-		padding:20px 0 0 0;
+		padding:20px 0;
 		margin:0;
 		
 	}
 	#skill .title li {
 		text-align:center;
 		font-size:12px;
-		line-height:22px;
+		line-height:20px;
 		color:#58412b;
 		font-weight:300;
-		height:30px;
 		display:block;
 	}
 	
@@ -281,7 +280,7 @@
 	
 	.charts .chart{
 		margin:20px auto;
-		padding:0;
+		padding:0 0 20px 0;
 		position:relative;
 		height:300px;
 	}
@@ -445,8 +444,8 @@
 	#portfolio .port_list .img a {
 		position:absolute;
 		z-index:111111111111;
-		margin-top:125px;
-		left:25px;
+		margin-top:120px;
+		left:20px;
 		margin-left:
 	}
 	
