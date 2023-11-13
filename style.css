@@ -98,6 +98,7 @@ div, p {
 	width:110px;
 	height:133px;
 	background:url('https://user-images.githubusercontent.com/79674569/282407880-6e84031a-322e-4c0b-b7b3-46e5ec52fec2.png')no-repeat;
+	background-size:110px 133px;
 }
 
 #main {
