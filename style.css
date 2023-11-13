@@ -550,11 +550,14 @@ circle {
 
 #portfolio .port_info .scale ul{
 	list-style:none;
+	display: flex;
+            justify-content: center;
 }
 
 #portfolio .port_info .scale li{
 	float:left;
-	width:33.33%;
+	width:100px;
+	margin:0 15px;
 	list-style:none;
 }
 
@@ -596,7 +599,7 @@ circle {
 
 #portfolio .port_info .scale h4{
 	width:100%;
-	padding:15px 0 0 0;
+	padding:10px 0 0 0;
 	text-align:Center;
 	color:#fff;
 	font-family: 'GmarketSans';
@@ -613,7 +616,7 @@ circle {
 }
 
 #portfolio .port_info .info span{
-	margin-left:30px;
+	margin-left:25px;
 }
 
 .pp_01{background:url('https://user-images.githubusercontent.com/79674569/282347198-195a19df-fab5-4d45-8b97-0cd7b578c834.jpg')center no-repeat; background-size:cover;}
