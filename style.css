@@ -744,7 +744,7 @@ circle {
 	height:100%;
 	min-height:800px;
 	background:#f5f2e9 url('https://user-images.githubusercontent.com/79674569/282392169-51d58dee-69fd-4ede-a9ca-28433b55fc09.jpg')center bottom no-repeat;
-	background-size:cover;
+	background-size:100%;
 	background-attachment: fixed;
 	display: flex;
         flex-direction: column;
