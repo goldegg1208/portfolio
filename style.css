@@ -821,9 +821,9 @@ circle {
 	display:block;
 	font-weight:700;
 }
-#ending .img{
+#ending .img_bg{
 	width:100%;
-	height:100hv;
+	height:800px;
 	backgroud-color:#000;
 	background-size:416px 300px;
 }
