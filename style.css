@@ -546,7 +546,6 @@ circle {
 	width:100%;
 	overflow:hidden;
 	color:#fff;
-	padding-top:50px;
 }
 
 #portfolio .port_info .scale{
@@ -567,14 +566,14 @@ circle {
 }
 
 #portfolio .port_info .scale .round{
-	width:120px; 
+	width:100px; 
 	height:100px;
 	background:url('https://user-images.githubusercontent.com/79674569/282358709-ba8e6571-9c58-4aba-85f1-25fff4cba5f3.png')center top no-repeat;
 	background-size:100px 100px;
 }
 
 #portfolio .port_info .scale .round p {
-	width:120px;
+	width:100px;
 	height:100px;
 	background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
 	background-size:100px 100px;
