@@ -473,6 +473,7 @@ circle {
 #portfolio .port_list{
 	width:100%; 
 	overflow:hidden;
+	padding-bottom:50px;
 }
 
 #portfolio .port_list .text{
