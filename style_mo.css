@@ -463,12 +463,12 @@
 	#portfolio .port_list .img .mo{
 		position:absolute;
 		z-index:111111;
-		width:57px;
-		height:100px;
+		width:70px;
+		height:123px;
 		background-color:#ccc;
 		border-radius:20px;
 		box-shadow:10px 10px 10px rgba(0,0,0,.1);
-		margin:-100px 0 0 20px;
+		margin:-150px 0 0 100px;
 	}
 	
 	#portfolio .port_info{
