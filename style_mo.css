@@ -468,7 +468,8 @@
 		background-color:#ccc;
 		border-radius:20px;
 		box-shadow:10px 10px 10px rgba(0,0,0,.1);
-		margin:-150px 0 0 100px;
+		margin:-150px 0 0 10px;
+		left:50%;
 	}
 	
 	#portfolio .port_info{
@@ -486,7 +487,6 @@
 		list-style:none;
 		display: flex;
 	        justify-content: start;
-		margin-left:-23px;
 	}
 	
 	#portfolio .port_info .scale li{
@@ -548,7 +548,7 @@
 		font-size:12px;
 		line-height:22px;
 		font-weight:300;
-		padding-top:30px;
+		padding-top:10px;
 	}
 	
 	#portfolio .port_info .info span{
