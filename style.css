@@ -752,3 +752,27 @@ circle {
         justify-content: center;
 }
 
+#epil h2 {
+	float:left; 
+	width:35%; margin-right:5%;
+	font-size:80px;
+	line-height:90px;
+	font-family: 'GmarketSans';
+	color:#46443f;
+	font-weight:300;
+	
+}
+#epil h2 b{
+	color:#ffb400;
+	font-weight:700;
+}
+
+#epil p {
+	float:left; width:60%;
+	font-family: 'Noto Sans KR', sans-serif;
+	font-size:15px;
+	color:rgba(0,0,0,.5);
+	line-height:27px;
+	word-break: keep-all;
+}
+
