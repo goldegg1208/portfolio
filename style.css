@@ -524,6 +524,20 @@ circle {
 	margin-top:30px;
 }
 
+#portfolio .port_list .img a {
+	position:absolute;
+	z-index:111111111111;
+}
+
+#portfolio .port_list .img a:hover{
+	opacity:0.5;
+	transition: 1s ease-out;
+}
+
+#portfolio .port_list .img a img{
+	width:60px;
+}
+
 #portfolio .port_list .img .pc{
 	width:100%;
 	height:273px;
