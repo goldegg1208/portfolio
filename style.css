@@ -557,6 +557,7 @@ circle {
 	list-style:none;
 	display: flex;
         justify-content: start;
+	margin-left:-30px;
 }
 
 #portfolio .port_info .scale li{
