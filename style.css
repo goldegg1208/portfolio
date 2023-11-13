@@ -540,6 +540,7 @@ circle {
 	width:100%;
 	overflow:hidden;
 	color:#fff;
+	padding-top:100px;
 }
 
 #portfolio .port_info .scale{
