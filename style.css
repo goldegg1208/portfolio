@@ -653,8 +653,9 @@ circle {
 .swiper-pagination {
 }
 
-.sample-slider .swiper-pagination-bullet{
-    background-color: #fff;
+.swiper-pagination-bullet{
+	background-color: #fff;
+	bottom:-10px;
 }
 
 .swiper-button-prev{
