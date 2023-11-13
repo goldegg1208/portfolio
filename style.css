@@ -780,12 +780,10 @@ circle {
 	height:100%;
 	min-height:800px;
 	background-color:#ffc58a;
-	background-attachment: fixed;
 	padding-top:150px;
 }
 
-#ending .text {
-	width:100%; 
+#ending .text { 
 	position:absolute;
 	z-index:111;
 	text-align:center;
