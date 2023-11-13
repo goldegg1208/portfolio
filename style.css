@@ -552,10 +552,9 @@ circle {
 }
 
 #portfolio .port_info .scale ul{
-	float:left;
 	list-style:none;
 	display: flex;
-        justify-content: center;
+        justify-content: left;
 }
 
 #portfolio .port_info .scale li{
