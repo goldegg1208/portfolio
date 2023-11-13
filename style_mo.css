@@ -18,7 +18,7 @@
 	
 	.btn_pdf:hover{
 		background:url('https://user-images.githubusercontent.com/79674569/282407890-f99087a3-1e85-4c7d-8b65-89f37a502891.png')no-repeat;
-		background-size:80px 66px;
+		background-size:66px 80px;
 		transition: 1s ease-out;
 	}
 	
