@@ -486,6 +486,7 @@ circle {
 
 #portfolio .port_list .text h2{
 	position:absolute;
+	z-index:111111111;
 	font-size:80px;
 	font-weight:700;
 	padding:0 30px 30px 0;
