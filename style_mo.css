@@ -252,7 +252,9 @@
 	#skill .title ul{
 		list-style:none;
 		width:100%;
-		padding-top:20px;
+		padding:20px 0 0 0;
+		margin:0;
+		
 	}
 	#skill .title li {
 		text-align:center;
@@ -281,6 +283,7 @@
 		margin:20px auto;
 		padding:0;
 		position:relative;
+		height:300px;
 	}
 	.charts .chart h2{
 		position:absolute;
