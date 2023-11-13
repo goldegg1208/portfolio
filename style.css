@@ -547,6 +547,7 @@ circle {
 #portfolio .port_info .scale{
 	float:left;
 	overflow:hidden;
+	width:480px;
 }
 
 #portfolio .port_info .scale ul{
