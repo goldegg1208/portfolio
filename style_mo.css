@@ -32,7 +32,7 @@
 	#main .img {
 	    z-index:1000000;
 	    position:absolute;
-	    top:55%;
+	    top:45%;
 	    width:100%;
 	    text-align:center;
 	}
@@ -55,7 +55,7 @@
 	    z-index:1;
 	    position:absolute;
 	    width:100%;
-	    top:12%;
+	    top:9%;
 	    color:#fff;
 	    font-family: 'GmarketSans';
 	    text-align:center;
