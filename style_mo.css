@@ -209,7 +209,6 @@
 		background:url('https://user-images.githubusercontent.com/79674569/282292508-a98db6d8-285d-4d10-bdd5-f9dfb06445d3.png')left bottom no-repeat;
 		background-size:1200px 297px;
 		animation: play .9s steps(6) infinite;
-		padding-top:40px;
 	}
 	
 	@keyframes play {
