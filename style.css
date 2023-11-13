@@ -498,7 +498,7 @@ circle {
 	font-size:25px;
 	line-height:35px;
 	font-weight:300;
-	padding:100px 0 30px 0;
+	padding:150px 0 30px 0;
 	margin:0;
 }
 
@@ -545,7 +545,6 @@ circle {
 
 #portfolio .port_info .scale{
 	float:left;
-	width:350px;
 	overflow:hidden;
 }
 
@@ -555,7 +554,8 @@ circle {
 
 #portfolio .port_info .scale li{
 	float:left;
-	width:33%;
+	width:100%;
+	margin-right:30px;
 	list-style:none;
 }
 
