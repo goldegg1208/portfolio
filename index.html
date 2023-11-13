@@ -204,10 +204,21 @@
   <!-- Initialize Swiper -->
   <script>
     var swiper = new Swiper(".mySwiper", {
-      navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-      },
+	speed: 1500,
+	loop: true,    
+      	navigation: {
+		nextEl: ".swiper-button-next",
+		prevEl: ".swiper-button-prev",
+	},
+	pagination: {
+	    el: '.swiper-pagination',
+	    type: 'bullets',
+	    clickable: true,
+	},
+	on: {
+	    activeIndexChange: function () {
+	    alert(this.realIndex+'번째 slide입니다.');
+	}
     });
   </script>
 
