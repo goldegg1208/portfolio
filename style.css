@@ -668,4 +668,12 @@ circle {
    transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
+.swiper-slide-active .pc {
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.1s;
+}
+
+.swiper-slide-active .mo {
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.1s;
+}
+
 
