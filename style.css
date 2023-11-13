@@ -654,7 +654,7 @@ circle {
 
 .swiper-button-prev,
 .swiper-button-next {
-    color: #fff;
+    color: #fff !important;
 }
 
 .swiper-slide-active h2 {
