@@ -493,7 +493,6 @@ circle {
 	margin:0;
 	overflow:hidden;
 	text-shadow:20px 20px 20px rgba(0,0,0,.1);
-	opacity:0;
 }
 
 #portfolio .port_list .text h3{
@@ -559,6 +558,7 @@ circle {
 
 #portfolio .port_info .scale li{
 	border:1px solid #fff;
+	background-color:#ddd;
 	margin-right:40px;
 	list-style:none;
 }
