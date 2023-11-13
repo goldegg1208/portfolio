@@ -385,6 +385,7 @@
 		background:url('https://user-images.githubusercontent.com/79674569/282318881-1a0f4d64-c00b-46e4-bff8-6292cf7fd99c.jpg')center no-repeat;
 		background-size:cover;
 		background-attachment: fixed;
+		padding-bottom:50px;
 	}
 	
 	#portfolio .port_list{
