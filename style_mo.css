@@ -490,24 +490,24 @@
 	
 	#portfolio .port_info .scale li{
 		list-style:none;
-		width:130px;
+		width:90px;
 		overflow:hidden;
 	}
 	
 	#portfolio .port_info .scale .round{
-		width:130px; 
-		height:100px;
+		width:90px; 
+		height:70px;
 		background:url('https://user-images.githubusercontent.com/79674569/282358709-ba8e6571-9c58-4aba-85f1-25fff4cba5f3.png')center top no-repeat;
-		background-size:100px 100px;
+		background-size:70px 70px;
 	}
 	
 	#portfolio .port_info .scale .round p {
-		width:130px;
-		height:100px;
+		width:90px;
+		height:70px;
 		background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
-		background-size:100px 100px;
+		background-size:70px 70px;
 		text-align:100%;
-		line-height:100px;
+		line-height:70px;
 		color:#ffdf2e;
 		font-family: 'GmarketSans';
 		font-size:17px;
@@ -522,12 +522,12 @@
 	
 	#portfolio .port_info .scale .round .on_100 {
 		background:url('https://user-images.githubusercontent.com/79674569/282358715-bd3b2235-d281-4d12-972e-7d47811fc437.png')center top no-repeat;
-		background-size:100px 100px;
+		background-size:70px 70px;
 	}
 	
 	#portfolio .port_info .scale .round .on_50 {
 		background:url('https://user-images.githubusercontent.com/79674569/282358712-e624a28a-8c68-4696-ac8e-ff00fb6d6657.png')center top no-repeat;
-		background-size:100px 100px;
+		background-size:70px 70px;
 	}
 	
 	#portfolio .port_info .scale h4{
@@ -541,16 +541,16 @@
 	}
 	
 	#portfolio .port_info .info{
-		float:right;
-		text-align:right;
+		text-align:center;
 		font-family: 'GmarketSans';
-		font-size:15px;
+		font-size:12px;
+		line-height:22px;
 		font-weight:300;
 		padding-top:133px;
 	}
 	
 	#portfolio .port_info .info span{
-		margin-left:25px;
+		display:block;
 	}
 	
 	.pp_01{background:url('https://user-images.githubusercontent.com/79674569/282347198-195a19df-fab5-4d45-8b97-0cd7b578c834.jpg')center no-repeat; background-size:cover;}
@@ -620,16 +620,17 @@
 	.swiper-pagination-bullet{
 		background-color: #fff !important;
 		bottom:-10px !important;
+		opacity:0.0;
 	}
 	
 	.swiper-button-prev{
 		color: #fff !important;
-		left:-50px !important;
+		left:20px !important;
 	
 	}
 	.swiper-button-next {
 		color: #fff !important;
-		right:-50px !important;
+		right:20px !important;
 	}
 	
 	.swiper-slide-active h2 {
