@@ -478,7 +478,7 @@
 	}
 	
 	#portfolio .port_info .scale{
-		float:left;
+		width:100%;
 		overflow:hidden;
 	}
 	
@@ -486,7 +486,7 @@
 		list-style:none;
 		display: flex;
 	        justify-content: start;
-		margin-left:-43px;
+		margin-left:-23px;
 	}
 	
 	#portfolio .port_info .scale li{
@@ -542,12 +542,13 @@
 	}
 	
 	#portfolio .port_info .info{
+		width:100%;
 		text-align:center;
 		font-family: 'GmarketSans';
 		font-size:12px;
 		line-height:22px;
 		font-weight:300;
-		padding-top:133px;
+		padding-top:30px;
 	}
 	
 	#portfolio .port_info .info span{
