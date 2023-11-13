@@ -794,6 +794,7 @@ circle {
 	text-align:center;
 	color:#fff;
 	font-family: 'GmarketSans';
+	background-image: linear-gradient(to bottom, rgba(255,197,138,1), rgba(255,197,138,0));
 }
 
 #ending .text h2{
