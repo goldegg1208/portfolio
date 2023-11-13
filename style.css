@@ -522,6 +522,7 @@ circle {
 	background-color:#fff;
 	border-radius:25px;
 }
+
 #portfolio .port_list .img .mo{
 	position:absolute;
 	z-index:111111;
@@ -531,6 +532,24 @@ circle {
 	border-radius:35px;
 	box-shadow:20px 20px 20px rgba(0,0,0,.1);
 	margin:-100px 0 0 300px;
+}
+
+#portfolio .port_info{
+	width:100%;
+	overflow:hidden;
+	color:#fff;
+}
+
+#portfolio .port_info .scale{
+	float:left;
+}
+
+#portfolio .port_info .info{
+	float:right;
+	text-align:right;
+	font-family: 'GmarketSans';
+	font-size:18px;
+	font-weight:300;
 }
 
 .swiper {
