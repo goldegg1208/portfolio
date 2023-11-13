@@ -6,6 +6,7 @@ $(function(){
     $('#main .s_text1').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.1s'});
     $('#main .s_text2').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.3s'});
     $('#main .s_text3').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.5s'});
+    $('.btn_pdf').css({'animation':'fadeIn 1.0s ease-in-out 1 forwards','animation-delay':'1.7s'});
 });
 
 $(function(){
