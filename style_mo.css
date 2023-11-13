@@ -33,6 +33,7 @@
 	    z-index:1000000;
 	    position:absolute;
 	    top:55%;
+	    width:100%;
 	    text-align:center;
 	}
 	
@@ -53,6 +54,7 @@
 	#main .text {
 	    z-index:1;
 	    position:absolute;
+	    width:100%;
 	    top:18%;
 	    color:#fff;
 	    font-family: 'GmarketSans';
