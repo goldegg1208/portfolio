@@ -203,23 +203,25 @@
 
   <!-- Initialize Swiper -->
   <script>
-    var swiper = new Swiper(".mySwiper", {
-	speed: 1500,
-	loop: true,    
-      	navigation: {
-		nextEl: ".swiper-button-next",
-		prevEl: ".swiper-button-prev",
-	},
-	pagination: {
+    var swiper = new Swiper('.mySwiper', {
+	  speed: 500,
+	  slidesPerView: 2,
+	  loop: true,
+	   navigation: {
+	    nextEl: '.swiper-button-next',
+	    prevEl: '.swiper-button-prev',
+	  },
+	  pagination: {
 	    el: '.swiper-pagination',
 	    type: 'bullets',
 	    clickable: true,
-	},
-	on: {
+	  },
+	  on: {
 	    activeIndexChange: function () {
-	    alert(this.realIndex+'번째 slide입니다.');
-	}
-    });
+	      alert(this.realIndex+'번째 slide입니다.');
+	    }
+	  }
+	});
   </script>
 
 	  </div>
