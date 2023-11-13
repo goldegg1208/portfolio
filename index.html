@@ -156,163 +156,387 @@
   </div>
   <div id="portfolio">
 
-<style>
-	.swiper-slide {
-    min-height: 600px;
-    text-align: center;
+<div class="wrapper">
+	<style>
+		.wrapper {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid white;
+	height: 400px;
+	max-width: 800px;
+	margin: 100px;
 }
 
-.slider-container {
-    padding: 100px;
-}
-
-
-
-.slider-sub-title {
-    font-size: 30px;
-    font-weight: 600;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: 9.2px;
-    color: #ffffff;
-}
-
-.slider-title {
-    font-size: 70px;
-    font-weight: bold;
-    font-style: normal;
-    font-stretch: normal;
-    line-height: normal;
-    letter-spacing: -1.03px;
-    color: #ffffff;
-    padding: 50px 0px;
-    opacity: 1;
+.swiper-container {
+	width: 100%;
+	height: 100%;
+	box-shadow: 13px 25px 98px 2px lighten(#E7CDCF,10%);
+	border-radius: 5px;
 }
 
 
 
+.swiper-slide {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width:300px;
+	min-width:300px;
+	text-align: center;
+	font-size: 18px;
+	background: #fff;
+	
+	opacity: 1;
+	transform: translateX(0px);
+	//transition: all 0.5s ease-in;
+	
+	
+		.slider {
+			&__img-part {
+				display: flex;
+				flex-direction: column;
+				justify-content: flex-start;
+				align-items: flex-start;
+				min-width: 300px;
+				width: 300px;
+
+				&__container {
+					display: flex;
+					justify-content: flex-start;
+					align-items: flex-start;
+					width: 0;
+					min-width: 0;
+					opacity: 1;
+					overflow:hidden;
+					transition: width 0.5s 0.4s;
+				}
+
+				&__img {
+					width: 300px;
+					height:auto;
+					opacity: 1;
+					border-radius: 3px;
+				}	
+
+				&__desc {
+					padding-top: 10px;
+					width: 100%;
+					color: lighten(#532458, 20%);
+					font-size: 13px;
+					font-style: italic;
+					text-align: center;
+					opacity: 1;
+					transition: opacity 0.5s 1.4s;
+				}
+			}
 
 
+			&__content {
+				display: flex;
+				flex-direction: column;
+				justify-content: space-between;
+				align-items: center;
 
-.slider-buttton {
-    font-weight: 600;
-    letter-spacing: 1.29px;
-    border: solid 1px #ffffff;
-    padding: 10px 20px;
-    color: #ffffff;
-    font-size: 30px;
-    text-decoration: none;
+				
+				&__title {
+					margin: 0;
+					padding: 40px 40px;
+					width: 100%;
+					background-color: #E7CDCF;
+					font-size: 30px;
+					font-weight: bold;
+					font-style: italic;
+					color: white;
+					opacity: 1;
+					transform: translatex(0);
+					transition: transform 0.8s 0.6s,
+						opacity 0.8s 0.6s;
+				}
+
+				&__desc {
+					margin: 0;
+					padding: 50px 40px;
+					font-size: 18px;
+					color: #532458;
+					opacity: 1;
+					transform: translatex(0);
+					transition: transform 0.8s 0.8s,
+						opacity 0.8s 0.8s;
+					
+				}
+			}
+
+		}
+
+	
+	&-prev {
+		.slider {
+			&__img-part {
+				
+				&__container {
+					width: 0;
+					transition: width 0.5s 0.4s;
+
+				}	
+				&__img {
+
+				} 
+				&__desc {
+				opacity: 0;
+				transition: opacity 0.3s 1.4s;
+			
+			} 
+			}
+			
+			&__content {
+
+				
+				&__title {
+				opacity:0;
+				transform: translatex(450px);
+				transition: transform 0.8s 0.6s,
+						opacity 0.8s 0.6s;
+				}
+
+				&__desc {
+				opacity:0;
+				transform: translatex(450px);
+				transition: transform 0.8s 0.8s,
+						opacity 0.8s 0.8s;
+				}
+			}
+		}
+		
+	}
+	
+	&-active {
+		.slider {
+			&__img-part {
+				&__container {
+					width: 300px;
+					opacity: 1;
+					transition:width 0.5s 0.4s;
+				}
+				&__img {
+
+				}
+				&__desc {
+					opacity: 1;
+					transition: opacity 0.5s 1s;
+				} 
+			}
+					
+			&__content {
+				
+	
+				
+				&__title {
+				opacity: 1;
+				transform: translatex(0);
+				transition: transform 0.8s 0.6s,
+						opacity 0.8s 0.6s;
+				}
+
+				&__desc {
+				opacity: 1;
+				transform: translatex(0);
+				transition: transform 0.8s 0.8s,
+						opacity 0.8s 0.8s;
+				}
+			}
+			
+		}
+
+	}
+	
+	
+	&-next {
+		
+		.slider {
+			&__img-part {
+				&__container {
+					width: 0px;
+					transition: width 0.5s 0.4s;
+				}
+				&__img {
+				} 
+				&__desc {
+					opacity: 0;
+					transition: opacity 0.3s 1s;
+				} 
+			}
+						
+			&__content {
+			
+
+				
+				&__title {
+				opacity: 0;
+				transform: translatex(450px);
+				transition: transform 0.8s 0.6s,
+						opacity 0.8s 0.6s;	
+				}
+
+				&__desc {
+				opacity: 0;
+				transform: translatex(450px);
+				transition: transform 0.8s 0.8s,
+						opacity 0.8s 0.8s;	
+				}
+			}
+			
+		}
+			
+	}
+	
 }
 
-
-
-.slide-1 {
-    background: url("http://demo2.joomshaper.com/2019/indigo/images/2019/06/10/slider-02.jpg");
-    background-size: cover;
+.swiper-button-next.slider-next,
+.swiper-button-prev.slider-prev {
+	top: 85%;
+	background-image: none;
+	background-color: white;
+	border-radius: 5px;
+	width: 40px;
+	height: 40px;
+	
+	&:before,
+	&:after {
+		background-color: #D09FA3;
+		border-radius:3px;
+		
+		transition: background-color 0.2s ease-out;
+	}
+	
+	&:hover {
+		&:before,
+		&:after {
+			background-color: darken(#D09FA3, 30%);
+		}
+	}
 }
 
-.slide-2 {
-    background: url("http://demo2.joomshaper.com/2019/indigo/images/2019/06/10/slider-03.jpg");
-    background-size: cover;
+.swiper-button-next.slider-next {
+	right: 100px;
+	border: 1px solid #D09FA3;
+
+	&:before,
+	&:after {
+		content: "";
+		right: 16px;
+    display: flex;
+    position: absolute;
+    height: 13px;
+    width: 3px;
+    
+	}
+	
+	&:before {
+		top: 10px;
+		transform: rotate(-45deg);
+	}
+	&:after {
+		top: 18px;
+		transform: rotate(45deg);
+	}
+}
+.swiper-button-prev.slider-prev {
+	right: 170px;
+	left: auto;
+	border: 1px solid #D09FA3;
+	
+	&:before,
+	&:after {
+		content: "";
+		left: 18px;
+    display: flex;
+    position: absolute;
+    height: 13px;
+    width: 3px;
+
+	}
+	
+	&:before {
+		top: 10px;
+		transform: rotate(45deg);
+	}
+	&:after {
+		top: 18px;
+		transform: rotate(-45deg);
+	}
 }
 
-.slide-3 {
-    background: url("http://demo2.joomshaper.com/2019/indigo/images/2019/05/27/slider-01.jpg");
-    background-size: cover;
-}
+	</style>
+	<!-- Swiper -->
+	<div class="swiper-container">
+		<div class="swiper-wrapper">
+			<!--slide 1 -->
+			<div class="swiper-slide">
+				<div class="slider__img-part">
+					<div class="slider__img-part__container">
+						<img class="slider__img-part__img" src="https://source.unsplash.com/random/300x300">						
+					</div>
 
+					<span class="slider__img-part__desc">
+						Lorem ipsum dolor.
+					</span>
+				</div>
+				
+				<div class="slider__content">
+					<h1 class="slider__content__title">Slide 1</h1>
+					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
+				</div>
+			</div>
+			
+			<!--slide 2 -->
+			<div class="swiper-slide">
+				<div class="slider__img-part">
+					<div class="slider__img-part__container">
+						<img class="slider__img-part__img" src="https://source.unsplash.com/random/300x310">
+					</div>
+					<span class="slider__img-part__desc">
+						Lorem ipsum dolor.
+					</span>
+				</div>
+				<div class="slider__content">
+					<h1 class="slider__content__title">Slide 2</h1>
+					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
+				</div>
+			</div>
+			
+			<!--slide 3 -->
+			<div class="swiper-slide">
+				<div class="slider__img-part">
+					<div class="slider__img-part__container">
+						<img class="slider__img-part__img" src="https://source.unsplash.com/random/310x300">
+					</div>
+					<span class="slider__img-part__desc">
+						Lorem ipsum dolor.
+					</span>
+				</div>
+				<div class="slider__content">
+					<h1 class="slider__content__title">Slide 3</h1>
+					<p class="slider__content__desc">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore vitae vero illum ullam at sint delectus ratione laborum.</p>
+				</div>
+			</div>
+		</div>
+	<!-- Add Arrows -->
+		<div class="swiper-button-next slider-next"></div>
+		<div class="swiper-button-prev slider-prev"></div>
+	</div>
+</div>
 
-.slider-buttton {
-    display: inline-block;
-}
-
-.swiper-slide-active .slider-sub-title {
-    animation: rollIn 1s;
-}
-
-.swiper-slide-active .slider-title {
-    animation: fadeInUp 1.5s;
-}
-.swiper-slide-active.slide-2 .slider-title {
-    animation: fadeInRight 1.5s;
-}
-.swiper-slide-active.slide-3 .slider-title {
-    animation: fadeInLeft 1.5s;
-}
-
-
-.swiper-slide-active .slider-buttton {
-    animation: zoomIn 2s;
-}
-
-</style>
-	<!-- Slider main container -->
-    <div class="swiper-container">
-        <!-- Additional required wrapper -->
-        <div class="swiper-wrapper">
-            <!-- Slides -->
-            <div class="swiper-slide slide-1">
-                <div class="container">
-                    <div class="slider-container">
-                        <h4 class="slider-sub-title">Learn To Face Difficulty</h4>
-                        <div class="animated-area">
-                                <h1 class="slider-title">Lorem ipsum dolor sit amet consectetur adipisicing elit.</h1>
-                                <a href="#" class="slider-buttton">Start Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide slide-2">
-                <div class="container">
-                    <div class="slider-container">
-                        <h4 class="slider-sub-title">Learn To Face Difficulty slider-2</h4>
-                        <div class="animated-area">
-                                <h1 class="slider-title">Autem ratione corporis itaque minus nihil</h1>
-                                <a href="#" class="slider-buttton">Start Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="swiper-slide slide-3">
-                <div class="container">
-                    <div class="slider-container">
-                        <h4 class="slider-sub-title animated">Learn To Face Difficulty slider-3</h4>
-                        <div class="animated-area animated">
-                                <h1 class="slider-title">impedit maxime. Ipsam officiis aliquam sequi sit amet. </h1>
-                                <a href="#" class="slider-buttton">Start Projects</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            ...
-        </div>
-        <!-- If we need navigation buttons -->
-        <div class="swiper-button-prev"></div>
-        <div class="swiper-button-next"></div>
-    </div>
-
-<script>
-
-$(document).ready(function () {
-    //initialize swiper when document ready
-    var mySwiper = new Swiper('.swiper-container', {
-        loop: true,
-        spaceBetween: 50,
-        speed: 1000,
-        effect: 'fade',
-        navigation: {
-            nextEl: '.swiper-button-next',
-            prevEl: '.swiper-button-prev',
-        },
-        autoplay: {
-            delay: 5000,
-            disableOnInteraction: false,
-        }
-    })
-
+	  <script>
+		  var swiper = new Swiper('.swiper-container', {
+ 	effect:"fade",
+	navigation: {
+		nextEl: '.swiper-button-next',
+		prevEl: '.swiper-button-prev',
+	},
 });
-</script>
+	  </script>
 	  
   </div>
  </body>
