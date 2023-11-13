@@ -657,15 +657,15 @@ circle {
 }
 
 .swiper-slide-active h2 {
-   transform:translateY(15px); opacity:1; transition:all 1s; transition-delay:0.1s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.1s;
 }
 
 .swiper-slide-active h3 {
-   transform:translateY(15px); opacity:1; transition:all 1s; transition-delay:0.3s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.3s;
 }
 
 .swiper-slide-active .info_text {
-   transform:translateY(15px); opacity:1; transition:all 1s; transition-delay:0.5s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
 
