@@ -555,6 +555,10 @@ circle {
 	font-weight:300;
 }
 
+#portfolio .port_info .info span{
+	margin-left:30px;
+}
+
 .swiper {
       width: 100%;
       height: 100%;
