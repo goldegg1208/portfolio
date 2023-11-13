@@ -555,12 +555,8 @@ circle {
 
 #portfolio .port_info .scale li{
 	float:left;
-	width:30%; 
-	margin-right:5%;
-}
-
-#portfolio .port_info .scale li:nth-child(3){
-	margin-right:0;
+	width:33%;
+	list-style:none;
 }
 
 #portfolio .port_info .scale .round{
