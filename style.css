@@ -657,13 +657,11 @@ circle {
 	color: #fff !important;
 	left:100px !important;
 	z-index:1111111111111111111111;
-	position:absolute;
 }
 .swiper-button-next {
 	color: #fff !important;
-	right:-100px !important;
+	right:100px !important;
 	z-index:1111111111111111111111;
-	position:absolute;
 }
 
 .swiper-slide-active h2 {
