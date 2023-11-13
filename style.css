@@ -656,11 +656,11 @@ circle {
 
 .swiper-button-prev{
 	color: #fff !important;
-	left:100px !important;
+	left:-100px !important;
 }
 .swiper-button-next {
 	color: #fff !important;
-	right:100px !important;
+	right:-100px !important;
 }
 
 .swiper-slide-active h2 {
