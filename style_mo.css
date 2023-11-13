@@ -108,7 +108,7 @@
 	        justify-content: center;
 	}
 	
-	#story .text {width:100%;}
+	#story .text {width:100%; text-align:Center;}
 	
 	#story .text h4 {
 		font-family: 'GmarketSans';
