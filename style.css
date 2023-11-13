@@ -553,13 +553,11 @@ circle {
 #portfolio .port_info .scale ul{
 	list-style:none;
 	display: flex;
+	width:480px;
         justify-content: space-between;
 }
 
 #portfolio .port_info .scale li{
-	border:1px solid #fff;
-	background-color:#ddd;
-	margin-right:40px;
 	list-style:none;
 }
 
@@ -651,8 +649,21 @@ circle {
 	opacity:0;
 }
 
+.swiper-button-prev,
+.swiper-button-next {
+    color: #fff;
+}
+
 .swiper-slide-active h2 {
    transform:translateY(30px); opacity:1; transition:all 1s; transition-delay:0.1s;
+}
+
+.swiper-slide-active h4 {
+   transform:translateY(30px); opacity:1; transition:all 1s; transition-delay:0.3s;
+}
+
+.swiper-slide-active .text p {
+   transform:translateY(30px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
 
