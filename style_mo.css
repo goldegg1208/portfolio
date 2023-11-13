@@ -98,7 +98,8 @@
 	
 	#story {
 		width:100%;
-		ovreflow:hiddn;
+		height:auto;
+		overflow:hidden;
 		background:#f5f2e9 url('https://user-images.githubusercontent.com/79674569/282286353-293d8452-b893-466f-bdd4-f928f4af3800.jpg')center top no-repeat;
 		background-size:250px 237px;
 		background-attachment: fixed;
@@ -129,6 +130,7 @@
 		color:rgba(0,0,0,.5);
 		line-height:22px;
 		word-break: keep-all;
+		padding-bottom:30px;
 	}
 	
 	
