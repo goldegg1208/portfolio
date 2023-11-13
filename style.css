@@ -654,9 +654,13 @@ circle {
 	opacity:0;
 }
 
-.swiper-button-prev,
+.swiper-button-prev{
+	color: #fff !important;
+	left:100px;
+}
 .swiper-button-next {
-    color: #fff !important;
+	color: #fff !important;
+	right:100px;
 }
 
 .swiper-slide-active h2 {
