@@ -562,8 +562,9 @@ circle {
       font-size: 18px;
       color: #fff;
       display: flex;
-      justify-content: center;
+      flex-direction: column;
       align-items: center;
+      justify-content: center;
 }
 
 .swiper-slide img {
