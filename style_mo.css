@@ -259,13 +259,14 @@
 	#skill .title li {
 		text-align:center;
 		font-size:12px;
-		line-height:20px;
+		line-height:18px;
 		color:#58412b;
 		font-weight:300;
 		display:block;
 	}
 	
 	#skill .title li:nth-child(5) {
+		display:none;
 		background:url('https://user-images.githubusercontent.com/79674569/282318210-c4c4bee5-06b8-488a-93da-6b240c31426611.png')left center no-repeat !important;
 	}
 	
