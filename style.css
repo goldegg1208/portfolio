@@ -473,8 +473,7 @@ circle {
 #portfolio .port_list{
 	width:100%; 
 	overflow:hidden;
-	padding:15px 0 50px 0;
-	margin-top:15px;
+	padding:30px 0 50px 0;
 }
 
 #portfolio .port_list .text{
@@ -520,6 +519,7 @@ circle {
 	float:left;
 	width:500px;
 	overflow:hidden;
+	padding-top:30px;
 }
 
 #portfolio .port_list .img .pc{
@@ -662,19 +662,19 @@ circle {
 }
 
 .swiper-slide-active h3 {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.3s;
-}
-
-.swiper-slide-active .info_text {
    transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
+.swiper-slide-active .info_text {
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.7s;
+}
+
 .swiper-slide-active .pc {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.1s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.3s;
 }
 
 .swiper-slide-active .mo {
-   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.1s;
+   transform:translateY(-15px); opacity:1; transition:all 1s; transition-delay:0.5s;
 }
 
 
